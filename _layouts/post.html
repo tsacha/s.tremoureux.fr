@@ -3,51 +3,29 @@
 <section class="article">
 
 {% if page.image.feature %}
-  <div class="overlay"></div>
-  <div class="featured-image" style="background-image: url({{ site.url }}/images/{{ page.image.feature }})"></div>
-{% else %}
-  <div class="overlay"></div>
-  <div class="featured-image" style="background-image: url({{ site.url }}/images/typewriter.jpg)"></div>
+  <div class="overlay" {{ % if page.image.h % }}style="height: {{page.image.h }}"{{ % endif % }}></div>
+  <div class="featured-image" style="background-image: url({{ site.url}}/images/{{ page.image.feature }}); {% if page.image.x and page.image.y %}background-position: {% if page.image.x.to_s contains 'px' %}-{% endif %}{{ page.image.x}} {% if page.image.y.to_s contains 'px' %}-{% endif %}{{page.image.y }};{% endif %}{{ % if page.image.h % }}height: {{page.image.h }};{{ % endif % }}">
+  {% if page.image.caption %}
+    {% if page.image.captionlink %}
+      <div class="featured-image-caption"><a href="{{page.image.captionlink}}">{{ page.image.caption }}</a></div>
+    {% else %}
+      <div class="featured-image-caption">{{ page.image.caption }}</div>
+    {% endif %}
+  {% endif %}
+  </div>
 {% endif %}
-
 
       <article class="wrap post">
         <header class="post-header">
-          <hgroup>
-            <h1>{{page.title}}</h1>
-            <p class="date">{{page.date | date: "%b %d, %Y" }}</p>
-            <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
-          </hgroup>
+          <h1>{{page.title}}</h1>
+          <p class="date">{{page.date | date: "%b %d, %Y" }}</p>
+          <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
         </header>
 
         {{ content }}
 
-      <a class="share" href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{ site.url }}{{ page.url }}%20via%20&#64;{{ site.owner.twitter }}" data-dnt="true">Share</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-      {% if page.comments %}
-      <aside class="disqus">
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = '{{ site.owner.disqus }}'; // required: replace example with your forum shortname
-
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-      </aside>
-      {% endif %}
-
-
       </article>
 
     </section>
-</div>
 
 {% include footer.html %}

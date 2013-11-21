@@ -17,12 +17,12 @@ $(document).ready(function() {
 
 });
 
-$(document).ready(function() {
-    var vpH = $(window).height();
-    var vH = vpH - 350;
-    $('.overlay').css("height", vH);
-    $('.featured-image').css("height", vH);
-});
+// $(document).ready(function() {
+//     var vpH = $(window).height();
+//     var vH = vpH - 350;
+//     $('.overlay').css("height", vH);
+//     $('.featured-image').css("height", vH);
+// });
 
 
 $(function(){

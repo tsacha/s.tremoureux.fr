@@ -5,7 +5,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,
-canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section,
+canvas, details, figcaption, figure, footer, header, menu, nav, section,
 summary, time, mark, audio, video {
   border: 0;
   font: inherit;
@@ -16,7 +16,7 @@ summary, time, mark, audio, video {
 }
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, menu, nav, section {
   display: block;
 }
 
@@ -462,15 +462,15 @@ header.site-header a.menu {
   display: none;
 }
 
-header.site-header hgroup h1, header.site-header nav ul {
+header.site-header h1, header.site-header nav ul {
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
 }
 
-header.site-header hgroup {
+header.site-header h1 {
   float: left;
   padding-left: 5vw;
 }
-header.site-header hgroup h1 {
+header.site-header h1 {
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
@@ -478,7 +478,7 @@ header.site-header hgroup h1 {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-header.site-header hgroup a {
+header.site-header h1 a {
   color: #fff;
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
@@ -486,13 +486,17 @@ header.site-header hgroup a {
   -ms-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-header.site-header hgroup a:hover {
+header.site-header h1 a:hover {
   text-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
   transition: all 0.2s ease;
+}
+header.site-header h1 span {
+  font-size: 12px;
+  color: darkgrey;
 }
 
 header.site-header nav {
@@ -543,24 +547,20 @@ header.site-header nav ul li a:hover {
 }
 .article .overlay {
   vertical-align: middle;
-  min-height: 360px;
-  height: 50vh;
+  min-height: 60px;
   width: 100%;
-  max-height: 800px;
   position: absolute;
   z-index: 2;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.15);
 }
 .article .overlay-lighter {
   background: rgba(0, 0, 0, 0.1);
 }
 .article .featured-image {
   vertical-align: middle;
-  min-height: 360px;
-  height: 50vh;
+  min-height: 60px;
   width: 100%;
-  max-height: 800px;
-  background-position: center center;
+  background-position: top center;
   background-size: cover;
   vertical-align: middle;
   -webkit-background-size: cover;
@@ -568,22 +568,34 @@ header.site-header nav ul li a:hover {
   -o-background-size: cover;
   position: relative;
   top: 0;
-  z-index: -1;
+}
+.article .featured-image-caption {
+   position: absolute;
+   bottom: .2em;
+   right: .2em;
+   z-index:2;
+   text-transform: uppercase;
+   font-size: .7em;
+   letter-spacing: 1px;
+   font-weight: 700;
+   font-family: "Source Sans Pro","Open Sans","Helvetica Neue","Arial",sans-serif;
+   color: lightgrey;
+}
+.article .featured-image-caption a {
+   color: lightgrey;
 }
 .article .featured-image img {
   max-height: 800px;
 }
 .article header {
   margin: 66px 0 33px 0;
-}
-.article header hgroup {
   color: #3b3b3b;
   position: relative;
   text-align: center;
   width: 100%;
   margin-top: 0;
 }
-.article header hgroup .date {
+.article header .date {
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-size: 16px;
   font-weight: bold;
@@ -628,8 +640,13 @@ header.site-header nav ul li a:hover {
   display: block;
   float: none;
 }
-.archive-wrap .post-list lh h2 {
+.archive-wrap h2 {
   margin-bottom: 49.5px;
+  float: left;
+  width: 67%;
+  margin: 0 1.5%;
+  margin-left: 21.5%;
+  margin-bottom: 49px;
 }
 .archive-wrap .post-list li {
   display: block;
@@ -875,8 +892,9 @@ footer .prev-posts {
   min-height: 250px;
   padding-left: 5vw;
 }
-footer .prev-posts p {
+footer .prev-posts h2 {
   padding-top: 66px;
+  line-height: 33px;
 }
 footer .prev-posts li {
   display: block;
@@ -1000,12 +1018,12 @@ footer .social ul li:last-child {
     padding-top: 0;
   }
 
-  header.site-header hgroup h1 {
+  header.site-header h1 {
     margin-bottom: 0;
     font-size: 22px;
   }
 
-  header.site-header hgroup {
+  header.site-header h1 {
     position: absolute;
     left: 7%;
     float: none;

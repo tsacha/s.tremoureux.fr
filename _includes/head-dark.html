@@ -1,10 +1,12 @@
+<!doctype html>
+<html lang="fr">
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
 <meta name="description" content="{{ page.description }}">
 <meta name="keywords" content="{{ page.tags | join: ', ' }}">
 
 
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="fr_FR">
 <meta property="og:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
 <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 120  }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
@@ -19,7 +21,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Type -->
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic" type='text/css' />
 <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="{{ site.url }}/assets/css/entypo.css" media="all">
 
@@ -36,7 +38,7 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
-<meta http-equiv="cleartype" content="on">
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
 
 <!-- Load Modernizr -->
 <script src="{{ site.url }}/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
@@ -46,25 +48,22 @@
 <!-- 16x16 -->
 <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
 
-<div id="bump">
-  <body class="">
-    <header class="site-header darken">
-      <div class="wrap">
-        <hgroup>
-          <h1><a href="/">{{ site.title }}</a></h1>
-        </hgroup>
-        <a href="#nav" class="menu"><span class='icons'>☰</span></a>
-        <nav role="navigation">
-          <ul>
-            <li>
-              <a href="/" title="{{ site.title }}">Home</a>
-            </li>
-            
-            {% for link in site.links %}
-                <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-            {% endfor %}
+<body id="bump" itemscope itemtype="http://schema.org/WebPage">
+  <header class="site-header darken">
+    <div class="wrap">
+      <h1><a href="/">{{ site.title }}</a><span> - {{ site.subtitle }}</span></h1>
+      <a href="#nav" class="menu"><span class='icons'>☰</span></a>
+      <nav role="navigation">
+        <ul>
+          <li>
+            <a href="/" title="{{ site.title }}">Accueil</a>
+          </li>
+          
+          {% for link in site.links %}
+              <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+          {% endfor %}
 
-          </ul>
-        </nav>
-      </div>
-    </header>
+        </ul>
+      </nav>
+    </div>
+  </header>
