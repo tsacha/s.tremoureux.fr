@@ -1,26 +1,73 @@
 ---
 layout: post
 permalink: /about/index.html
-title: About the Theme
-description: Balzac is a new, fluid & responsive theme for Jekyll (and AnchorCMS). It's gloriously beautiful and suited to long form. Built on a SCSS foundation, it's organized and awesome.
-tags: [about, Jekyll, theme, responsive]
+title: À propos
+description: Je m’appelle Sacha Trémoureux, j’ai 21 ans et je suis administrateur systèmes et réseaux. Je suis passionné de nouvelles technologies, en particulier en matière de logiciels libres, et amateur de cinéma sur mon temps libre.
 image:
-  feature: soft-trees.jpg
+  feature: nasa.jpg
+  x: 50%
+  y: 100%
+  h: 20px
 ---
 
-This is built on Semantic.gs grid framework which I edited a bit to make it fluid. I hope you enjoy using, forking, whatevering this theme as much as I did making it. 
+Je suis originaire de la
+[presqu’île guérandaise](http://www.openstreetmap.org/?lat=47.3745&amp;amp;lon=-2.373&amp;amp;zoom=12&amp;amp;layers=M)
+et j’habite actuellement dans la ville de [Nantes](http://www.openstreetmap.org/#map=12/47.2383/-1.5603).
 
-### Features
-* flexible, uses max-width for responsive goodness
-* responsive drop down menu
-* retina images using @2x
-* post loop in the footer showing 3 latest post
-* custom portfolio page for case studies
+## Études
 
-### Acknowledgements
-I utilized my own HTML templates, but had no prior knowledge of liquid nor the required Jekyll system file format. I took [Michael Rose](http://twitter.com/mmistakes)'s theme [Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/). Having a prebuilt archive and the YAML front-matter already set up was a great help. 
+J’ai étudié à l’IUT Nancy-Charlemagne où j’y ai obtenu une licence
+professionnelle ASRALL (Administration Systèmes et Réseaux à base de Logiciels
+Libres). Je dispose également d’un diplôme universitaire technologique (DUT) en
+Informatique obtenu au sein de l’IUT de Nantes.
 
- The lovely font shown here is Calendas. For full splendor on your blog, I suggest you [head over and buy that](http://calendasplus.com/). The full family is 3 weights and costs $3. Many thanks to Daniel Bruce for the wonderful Entypo icons. Those can be picked up at [entypo.com](http://entypo.com), but are included with the source files. It's also <b>retina ready</b> via retina.js. Check out how that works over at [retinajs.com](http://retinajs.com).
+## Technologies
 
-### The Name
-Balzac was a famous writer, known for his beautiful prose. I read some Balzac in school, but mostly feel comfort in the name of my favorite coffee shop in Stratford, Ontario. 
+Je suis à l’heure actuelle un jeune utilisateur actif en termes de logiciels
+libres. Je m’oriente de plus en plus vers l’administration systèmes à la fois
+personnellement et professionnellement.
+
+### Réalisations
+
+Je regroupe mes travaux que depuis récemment sur
+[GitHub](https://github.com/tsacha/).
+
+## Professionnel
+
+Vous trouverez mon CV en date de Mars 2013 [ici](/cv.pdf).
+
+## Contact
+
+Vous pouvez me contacter au choix :
+
+* par e-mail : sacha &lt;chez&gt; tremoureux.fr
+* par Jabber : sacha &lt;chez&gt; tremoureux.fr
+
+Je me ferai un plaisir de vous répondre dès que possible.
+
+### GPG
+
+Ma clé GPG est retrouvable :
+
+* soit de cette façon :
+
+`gpg --keyserver pgp.mid.eud --recv-keys DC500FA0`
+
+* ou bien [de cette manière](/pub.gpg)
+
+### Culture
+
+Quelques références culturelles que j’affectionne tout particulièrement qui me
+reviennent en tête assez facilement :
+
+
+* L’univers de David Lynch
+* Le réalisateur iranien Asghar Farhadi (Une Séparation, et le récent Le Passé)
+* La quasi-totalité des œuvres de Joann Sfar
+* Les films de Federico Fellini (Amarcord, Huit et Demi…)
+* Les mélodies planantes de Sigur Rós
+* et tant d'autres…
+
+## Voyages
+
+Mes péripéties norvégiennes sont disponibles [par là-bas](/norvege/norvege.html).
