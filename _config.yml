@@ -1,57 +1,36 @@
-title:            Balzac
-tagline:          A beautiful theme.
-description:      Describe your website.
-#Comment out url when working locally to resolve base urls correctly
-url: http://jekyll.gtat.me
+title:            Réservoir de pensées fuyantes
+subtitle:         Sacha Trémoureux
+description:      Publications principalement sur le cinéma et Linux
 
-# Owner/author information
 owner:
-  name:           Cole Townsend
+  name:           Sacha Trémoureux
   avatar:         avatar.png
-  bio:            "Aesthete & Athlete"
-  email:          cole@coletownsend.com
-  twitter:        twnsndco        
-  github:         coletownsend       
-  instagram:      ctrunsthis     
-  dribbble:       coletownsend
-  disqus:         balzac
-  # Plug in your disqus shortname!
-  
+  bio:            "Administrateur systèmes et réseaux"
+  github:         tsacha
 
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
+  - title: À propos
     url: /about
   - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
-    external: true
-  - title: Cole Who?
-    url: http://coletownsend.com
+    url: https://github.com/tsacha/
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Paris
 future:      true
 pygments:    true
 markdown:    kramdown
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
+
+
+
+default_locale: fr
+authorized_locales: [en, fr]
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
