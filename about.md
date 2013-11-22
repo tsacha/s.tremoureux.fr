@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: page
 permalink: /about/index.html
 title: À propos
 description: Je m’appelle Sacha Trémoureux, j’ai 21 ans et je suis administrateur systèmes et réseaux. Je suis passionné de nouvelles technologies, en particulier en matière de logiciels libres, et amateur de cinéma sur mon temps libre.
 image:
-  feature: nasa.jpg
+  feature: maven.jpg
   x: 50%
   y: 100%
   h: 20px
