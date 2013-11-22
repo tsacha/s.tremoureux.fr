@@ -183,6 +183,10 @@ blockquote, blockquote p {
     line-height: 24px;
   }
 
+  pre {
+     font-size: 16px !important;
+  }
+
   .intro {
     font-size: 24px;
     line-height: 1.4em;
@@ -306,6 +310,11 @@ code {
   font-family: "Monaco", "Courier New", "Courier";
   font-size: .75em;
   font-weight: bold;
+}
+
+pre {
+   margin: 1em 0 2em 0;
+   font-size: 22px;
 }
 
 .highlight {
