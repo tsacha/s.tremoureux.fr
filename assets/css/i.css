@@ -568,11 +568,11 @@ header.site-header nav ul li a:hover {
 }
 .article .overlay {
   vertical-align: middle;
-  min-height: 60px;
+  max-height: 60px;
   width: 100%;
   position: absolute;
   z-index: 2;
-  background: rgba(0, 0, 0, 0.15);
+  background: linear-gradient(top, rgba(0,0,0,0.85), rgba(0, 0, 0, 0));
 }
 .article .overlay-lighter {
   background: rgba(0, 0, 0, 0.1);
