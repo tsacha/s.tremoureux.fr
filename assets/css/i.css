@@ -400,6 +400,7 @@ input {
   min-height: 100%;
   height: auto;
   margin: 0 auto-320px;
+  background: rgb(249,249,249);
 }
 
 .wrap {
@@ -428,7 +429,7 @@ input {
   float: left;
   width: 77%;
   margin: 0 1.5%;
-  max-width: 680px;
+  max-width: 730px;
   display: block;
   margin: 0 auto;
   float: none;
@@ -568,11 +569,15 @@ header.site-header nav ul li a:hover {
 }
 .article .overlay {
   vertical-align: middle;
-  max-height: 60px;
+  max-height: 80px;
   width: 100%;
   position: absolute;
   z-index: 2;
-  background: linear-gradient(top, rgba(0,0,0,0.85), rgba(0, 0, 0, 0));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.65), rgba(0, 0, 0, 0));
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.65), rgba(0, 0, 0, 0));
+  background: -ms-linear-gradient(top, rgba(0,0,0,0.65), rgba(0, 0, 0, 0));
+  background: -o-linear-gradient(top, rgba(0,0,0,0.65), rgba(0, 0, 0, 0));
+  background: linear-gradient(top, rgba(0,0,0,0.65), rgba(0, 0, 0, 0));
 }
 .article .overlay-lighter {
   background: rgba(0, 0, 0, 0.1);
@@ -620,7 +625,7 @@ header.site-header nav ul li a:hover {
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-size: 16px;
   font-weight: bold;
-  color: #d9d9d9;
+  color: rgb(180,180,180);
   text-transform: uppercase;
   margin-top: 22px;
 }
