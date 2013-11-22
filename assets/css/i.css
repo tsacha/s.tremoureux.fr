@@ -496,7 +496,11 @@ header.site-header h1 a:hover {
 }
 header.site-header h1 span {
   font-size: 12px;
-  color: darkgrey;
+  color: white;
+}
+
+header.darken h1 span {
+   color: rgb(59,59,59);
 }
 
 header.site-header nav {
@@ -1004,6 +1008,12 @@ footer .social ul li:last-child {
     margin-top: 16.5px;
   }
 }
+@media only screen and (max-width: 850px) {
+    h1 span {
+       display: none;
+    }
+}
+
 @media only screen and (max-width: 680px) {
   /* All Posts */
   section.article img.loading {
