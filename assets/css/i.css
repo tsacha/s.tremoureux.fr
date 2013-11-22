@@ -312,9 +312,17 @@ code {
   font-weight: bold;
 }
 
+pre code {
+   color: rgba(217, 217, 217, 0.6);
+}   
+
 pre {
    margin: 1em 0 2em 0;
+   padding: .3em;
    font-size: 22px;
+   background: none repeat scroll 0% 0% rgb(59, 59, 59);
+   overflow-x: auto;
+   overflow-y: hidden;
 }
 
 .highlight {
