@@ -9,7 +9,7 @@
 <id>{{ site.url }}/</id>
 <author>
   <name>{{ site.owner.name }}</name>
-  <uri>{{ site.url }}/</uri>
+  <uri>{{ site.owner.url }}</uri>
   <email>{{ site.owner.email }}</email>
 </author>
 
@@ -50,7 +50,7 @@
   <updated>{{ post.date | date_to_xmlschema }}</updated>{% endif %}
   <author>
     <name>{{ site.owner.name }}</name>
-    <uri>{{ site.url }}</uri>
+    <uri>{{ site.owner.url }}</uri>
     <email>{{ site.owner.email }}</email>
   </author>
   <content type="html">{{ post.content | xml_escape }}

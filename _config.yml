@@ -4,6 +4,8 @@ description:      Publications principalement sur le cinéma et Linux
 
 owner:
   name:           Sacha Trémoureux
+  email:          sacha@tremoureux.fr
+  url:            "http://s.tremoureux.fr/"
   avatar:         avatar.png
   bio:            "Administrateur systèmes et réseaux"
   github:         tsacha
