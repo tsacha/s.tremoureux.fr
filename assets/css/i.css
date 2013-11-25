@@ -745,8 +745,7 @@ header.site-header nav ul li a:hover {
   text-transform: uppercase;
   vertical-align: middle;
 }
-
-.post {
+ {
   min-height: 500px;
 }
 .post .deets {
@@ -1140,6 +1139,10 @@ footer .social ul li:last-child {
     color: #f9f9f9;
     background-color: #8ab9d1;
   }
+  .article .featured-image {
+     background-position: inherit !important;
+     max-height: 60vh !important;
+  }
 }
 @media only screen and (max-width: 480px) {
   .post {
@@ -1159,5 +1162,11 @@ footer .social ul li:last-child {
 
   small {
     font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 432px) {
+  .article .featured-image {
+     min-height: 80px !important;
   }
 }
