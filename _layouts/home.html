@@ -3,7 +3,7 @@
         <article class="archive-wrap">
           <h2><span class="bb">{{ page.title }}</span></h2>
             <ol class="post-list">
-              {% if page.category %}e
+              {% if page.category %}
                 {% sorted_for post in site.categories sort_by:order %}
                 <li>
                   <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
