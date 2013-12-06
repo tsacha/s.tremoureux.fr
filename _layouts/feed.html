@@ -15,7 +15,7 @@
 
 {% if page.category %}
 
-{% for post in site.categories.[page.category] %}
+{% sorted_for post in site.categories sort_by:order %}
 
 <entry>
   <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
@@ -34,11 +34,11 @@
   &lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt; was originally published by {{ site.owner.name }} at &lt;a href=&quot;{{ site.url }}&quot;&gt;{{ site.title }}&lt;/a&gt; on {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;</content>
 </entry>
 
-{% endfor %}
+{% endsorted_for %}
 
 {% else %}
 
-{% for post in site.posts limit:20 %}
+{% sorted_for post in site.posts limit:20 sort_by:order %}
 
 <entry>
   <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
@@ -56,7 +56,7 @@
   <content type="html">{{ post.content | xml_escape }}
   &lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt; was originally published by {{ site.owner.name }} at &lt;a href=&quot;{{ site.url }}&quot;&gt;{{ site.title }}&lt;/a&gt; on {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;</content>
 </entry>
-{% endfor %}
+{% endsorted_for %}
 {% endif %}
 
 </feed>
