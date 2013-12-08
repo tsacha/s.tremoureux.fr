@@ -633,6 +633,9 @@ header.site-header nav ul li a:hover {
   text-align: left;
 }
 
+.video-container {
+   text-align: center;
+}
 .archive {
   display: inline;
   float: left;
