@@ -4,12 +4,12 @@
       <div class="prev-posts">
         <h2 class="list-title">Derniers articles</h2> 
         <ol>
-          {% for post in site.posts | limit:3 %} <!-- for1 -->
+          {% sorted_for post in site.posts sort_by:order footer:true | limit:3 %} <!-- for1 -->
               <li>
                 <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
                 <span class="date">le {{post.date | localize: "%d %B %Y" }}</span>
               </li>
-          {% endfor %}
+          {% endsorted_for %}
         </ol>
       </div>
     </aside>

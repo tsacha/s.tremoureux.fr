@@ -78,7 +78,9 @@ On peut désormais modifier la recette de cuisine.
     make menuconfig
 
 * Dans `General Setup/Control Group Support`, j’ai tendance à activer tout ce qui n’est pas marqué comme étant du debugging. 
-* Dans `General Setup/Namespaces support`, j’active `User namespaces`
+* Dans `General Setup/Namespaces support`, j’active `User namespaces`. Si nous
+  souhaitons installer la version 3.10 du noyau, il faut pour cela désactiver
+  totalement XFS dans les filesystems.
 
 On sauvegarde désormais `.config` et on lance dans la compilation.
 

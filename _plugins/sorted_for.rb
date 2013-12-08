@@ -3,7 +3,7 @@ module Jekyll
   class SortedForTag < Liquid::For
     def render(context)
       category = context.registers[:page]['category']
-      @collection_name = @collection_name+"."+category if not category.nil?
+      @collection_name = @collection_name+"."+category if (not category.nil? and @attributes['footer'].nil?) 
       if not context[@collection_name].nil?
         sorted_collection = context[@collection_name].dup
         sorted_collection.sort_by! { |i| 

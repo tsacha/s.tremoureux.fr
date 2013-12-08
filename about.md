@@ -51,7 +51,7 @@ Ma clé GPG est retrouvable :
 
 * soit de cette façon :
 
-`gpg --keyserver pgp.mid.eud --recv-keys DC500FA0`
+`gpg --keyserver pgp.mid.eu --recv-keys DC500FA0`
 
 * ou bien [de cette manière](/pub.gpg)
 
