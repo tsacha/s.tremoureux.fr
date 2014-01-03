@@ -3,7 +3,7 @@ layout: post
 title: "Déploiement de Libvirt, LXC et Openvswitch"
 description: "Description des classes Puppet s’occupant de la base de l’architecture."
 category: technologies
-updated: 2014-01-03
+modified: 2014-01-03
 image:
   feature: norvege-balestrand.jpg
   caption: Balestrand, Norvège — CC BY 3.0 Sacha Trémoureux
