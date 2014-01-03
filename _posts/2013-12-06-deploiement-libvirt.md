@@ -3,6 +3,7 @@ layout: post
 title: "Déploiement de Libvirt, LXC et Openvswitch"
 description: "Description des classes Puppet s’occupant de la base de l’architecture."
 category: technologies
+updated: 2014-01-03
 image:
   feature: norvege-balestrand.jpg
   caption: Balestrand, Norvège — CC BY 3.0 Sacha Trémoureux
@@ -144,9 +145,8 @@ dispose de quelques fichiers de configuration. À retenir :
 # Utilisation de LXC & LibVirt
 
 J’utilise
-[un script](https://raw.github.com/tsacha/puppet/master/tsacha_containers/templates/generate_container.sh.erb)
-assez brut de décoffrage pour générer des conteneurs. Quelques retouches
-seraient les bienvenues, mais en attendant, il fait son travail !
+[un script](https://raw.github.com/tsacha/puppet/master/tsacha_containers/templates/generate_container.rb.erb)
+en Ruby pour la génération des conteneurs.
 
 Ce qu’il faut retenir, c’est que pour avoir un conteneur fonctionnel, il faut en
 base un système opérationnel. Dans le cas d’un conteneur sous Debian,
