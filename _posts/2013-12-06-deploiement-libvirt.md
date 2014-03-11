@@ -59,7 +59,7 @@ Ainsi, l’ordre des opérations est le suivant :
 
 * Installation d’OVS et ses dépendances (ethtool)
 * Remplacement du script d’init avec
-  [celui modifié par mes soins](https://raw.github.com/tsacha/puppet/master/tsacha_containers/templates/ovs-init.erb)
+  [celui modifié par mes soins](https://raw.github.com/tsacha/puppet/master/tsacha_hypervisor/templates/ovs-init.erb)
 * Modification des runlevels d’OVS
 * Lancement d’OVS
 
@@ -72,7 +72,7 @@ sommaires sont à déployer :
 * Activation du forwarding IPv4 (avec sysctl, et sysctl.conf)
 * Règles de masquerade dans iptables, avec la configuration au démarrage du
   parefeu. J’utilise
-  [un petit script](https://raw.github.com/tsacha/puppet/master/tsacha_containers/templates/network_iptables.erb)
+  [un petit script](https://raw.github.com/tsacha/puppet/master/tsacha_hypervisor/templates/network_iptables.erb)
   qui est activé avant le démarrage des interfaces réseaux pour cela (`/etc/network/if-pre-up.d/iptables`).
   
 ## Création des interfaces virtuelles
@@ -117,7 +117,7 @@ Puppet effectue les tâches suivantes :
 * Téléchargement d’un script de génération de conteneur
 
 Les
-[sources Puppet](https://github.com/tsacha/puppet/blob/master/tsacha_containers/manifests/lxc.pp)
+[sources Puppet](https://github.com/tsacha/puppet/blob/master/tsacha_hypervisor/manifests/lxc.pp)
 sont plutôt claires concernant cette partie. Quelques petits points d’ombres
 sont tout de même à éclaircir.
 
@@ -133,7 +133,7 @@ décrit plus ou moins la procédure.
 ## Modifications diverses de libvirt
 
 Mon
-[dossier templates](https://github.com/tsacha/puppet/tree/master/tsacha_containers/templates)
+[dossier templates](https://github.com/tsacha/puppet/tree/master/tsacha_hypervisor/templates)
 dispose de quelques fichiers de configuration. À retenir :
 
 * J’utilse LXC par défaut pour les commandes de Virsh.
@@ -145,7 +145,7 @@ dispose de quelques fichiers de configuration. À retenir :
 # Utilisation de LXC & LibVirt
 
 J’utilise
-[un script](https://raw.github.com/tsacha/puppet/master/tsacha_containers/templates/generate_container.rb.erb)
+[un script](https://raw.github.com/tsacha/puppet/master/tsacha_hypervisor/templates/generate_container.rb.erb)
 en Ruby pour la génération des conteneurs.
 
 Ce qu’il faut retenir, c’est que pour avoir un conteneur fonctionnel, il faut en
