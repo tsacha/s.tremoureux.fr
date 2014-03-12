@@ -34,9 +34,7 @@ Je regroupe mes travaux que depuis récemment sur
 
 ## Professionnel
 
---Vous trouverez mon CV en date de Mars 2013 [ici](/cv.pdf).--
-
-C'est dans la todo list !
+Le CV est en cours de reconstruction. Dans la todo list.
 
 ## Contact
 
@@ -70,6 +68,3 @@ reviennent en tête assez facilement :
 * Les mélodies planantes de Sigur Rós
 * et tant d'autres…
 
-## Voyages
-
-Mes péripéties norvégiennes sont disponibles [par là-bas](/norvege/norvege.html).
