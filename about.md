@@ -34,7 +34,9 @@ Je regroupe mes travaux que depuis récemment sur
 
 ## Professionnel
 
-Vous trouverez mon CV en date de Mars 2013 [ici](/cv.pdf).
+--Vous trouverez mon CV en date de Mars 2013 [ici](/cv.pdf).--
+
+C'est dans la todo list !
 
 ## Contact
 
