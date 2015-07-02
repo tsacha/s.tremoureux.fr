@@ -1,7 +1,7 @@
 title:            Réservoir de pensées fuyantes
 subtitle:         Sacha Trémoureux
 description:      Publications principalement sur le cinéma et Linux
-
+canonical:        https://s.tremoureux.fr
 owner:
   name:           Sacha Trémoureux
   email:          sacha@tremoureux.fr
@@ -9,6 +9,11 @@ owner:
   avatar:         avatar.png
   bio:            "Administrateur systèmes et réseaux"
   github:         tsacha
+  location:       "Nantes, France"
+
+tools:
+  standards:      "HTML, SCSS, Jekyll"
+  software:       "git"
 
 # Links to include in top navigation
 # For external links add external: true
@@ -22,9 +27,24 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Paris
 future:      true
-highligther: pygments
+highlighter: pygments
 markdown:    kramdown
 
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+sass:
+    style: :compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
