@@ -4,7 +4,7 @@ https://keybase.io/tsacha
 
 I hereby claim:
 
-  * I am an admin of http://s.tremoureux.fr
+  * I am an admin of https://s.tremoureux.fr
   * I am tsacha (https://keybase.io/tsacha) on keybase.
   * I have a public key with fingerprint 8D40 89C7 461C 0E8E 0614  2633 8851 B6B9 C724 08E3
 
@@ -20,17 +20,22 @@ To do so, I am signing this object:
             "uid": "43cdd1599c31749df29c093d0ca50900",
             "username": "tsacha"
         },
+        "revoke": {
+            "sig_ids": [
+                "c1b23fd15c43c03f0684fa043ea717dadcb67fb967f5e5e6505ff991de58ab7a0f"
+            ]
+        },
         "service": {
             "hostname": "s.tremoureux.fr",
-            "protocol": "http:"
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1435846379,
+    "ctime": 1435847351,
     "expire_in": 157680000,
-    "prev": "a12c9fa7166eaa7f01f08c95671b4d570eee3c3cf694659af977b8cffbd9a6a4",
-    "seqno": 30,
+    "prev": "31cd348178471fe1d2ad5876805df3a05a312a1f1c881b878dfb8e1eabbbb621",
+    "seqno": 31,
     "tag": "signature"
 }
 
@@ -38,29 +43,30 @@ which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
 
-owFlkn1QVFUYxhdYPmKEQtnlQ8jmOiU5DNy79xsBzZQ+FJmQENpGOOfec9krsHfb
-vax8CI0GKFIphYzFTGkDFCsxQokZhEkh1TpqRUkNhkFIiGWxOTll2L2M/dX558x5
-n+f9nXneeQ+GBRhC/NosVQ3jHVdT/byz0PD0oYwbVRhUxAospQorRouXJNuLkNPh
-lO0qloJxIoVzvMBSDCHgiEM4Q1AWhiQ5jiYgAzXFohkQiSViNsWld2gYCFwoSVa0
-mvYokEWd839/8aKAEzhBQZ7gJQpZaAQQT7MU4EQRUlBiScaCA04SAQdxhhcExiLQ
-gGR5SPEcTlkoiaVIROFAw5Ut4ihSEEWC5nmBJFiKFyULL+A8KeICoHEex3WjCznt
-oBRpbtUFBBvAqhMxreaWBaQPQM9xV3clqU5UqpQ5UVl5kuTUmh1ORVUEpUQTbarq
-SNF71QqHbt6JYMFdTAGU7aI2R63BjZwuWbFjKYTmFFRZ5xIUSXMUo+VIxFC5Q3ai
-All30CzD4drRv0FuDQkIi8BLgCUYBgHASjgh4ZzA0wxLQEqkWRwhRAqkIDE8xdA8
-kHiWhZwgSVDkAQMoTA/2nF3BUkgNqoIiPZNcZAeqFikAqw5t8I8zGvxCDEGB/voy
-GELvue+/DaF/undhTcmD9P6wKfhaYfWXG26cuD50fNlUxJCxddtX3G5TfNqS1itD
-Tb958m6vgONHBy5ZD398IbT/n5rXIw69MeupreoZiW0hvf3nofHNs5FZS00jmd4/
-uffzolcxmafX7VrYtv1EY+zFHHf+jtQdIYEete/5rr0/mMzFS/MPJJJbVW/Uj/H1
-k6Yjx4d3b1x3ZGZV1/gK5eupmJmS5pttGZW9NQb8laHvJl4Kvt93i8j4drAnd1+l
-1bORpXrCL2/++bGIO9Zk36z9JDVovp098RnqumZx9e7Lfm9Tk4nJLDRf67c2Sbce
-+dUMw8bys7PaWt71pTa2e5q///DRirn93SxB2rw1GwrKc6snBr5oi9t5SqpLKLsS
-7D5ca26rW98wOdxvnhdTi75Z1rEVBa79+4H26Rihf5Q0xpyOSna/Xb8r1dr5+2hL
-bvNfhabVD52f7ltzMtqPuwRB7MjF1QO+woPDZ/Y8E/AC3zDft6Xxj6mnzp1LGxvb
-c8zzJLngiPa+Sr4VDLpnsvyCenJM88YnZjqLk561MZPE2pXhQZ+En8qBjtbuKu9k
-bfrLaUrJkuTLZY7NRuv2zpt16XlXy/1XRr0oxa1v/5xLmD4WmsutuDNnO/Pwlsqs
-+A982HzkO6WbihM+/WXK8HjE8AH1QldAZP3y9NGPlk829Ca5sfacEd/R6/jZwZoO
-/7m6hX8B
-=NrEf
+owFlkmtMVEcUxxcEeVlBUFuURrlUDRZw5r7vakOJhkfFNAKFNCh4H3OXm8W9y+7y
+3KLRFiu2FSICpfWBodAYSgo0oBglq6lVecQYE9pGWi2pCC0Um5aWioudS+ynzoeZ
+zJz/+f3PmZnaF5aYAn0+I93Vo23j23wGJyXTW/VvXHITkq6UE2Y3YUWLi6rZLMhh
+d2g2F2EmeIUGvCBzNAtlgHgEWEiTLEXxPAMlVsIREgsQRcQRBbrTyMAYSXSiBE3H
+Z3iTrykG5/9662IAQABpSYCCSiOSQSISGI4WeUWRaEnlKJYEIq8qIi8BVpBllpQZ
+keIEiRZ4QJO0ytEUooGIccWLOJqSFQUygiBTkKMFRSUFGQiUAmSRAQIAhtCJHDZx
+P8Jql1OUC0SiMo5woBLdioz+nZoFl+wkzLmEDCWSUjFOxlhAqYDlaVUE2FLkIKeI
+iiyxnCoJeGIQg1gGMKoqCFBBDC9KnAhUYi9mY78STV6EG3f03NuZ4HKg/XqxAxWX
+JagOXJjdobt0WS/EwQKXy+40G4W5yu2GuhRJ+c85+ZJmU/Aj4YwS5HBquo0wQ6yU
+XZoBhjTF8DRHMTCOQGV2zYHyNUPBcCwP8DB8UAlG7qOgrFA0DzkshyqCCikqDG/I
+GEWlRIBvGpIiVKHM81DiOV5RJR5BJEp4sCQkjNaKbDphprCXS7QYXWkWm+jCTRGV
+wdW+UX4mn0DTUn9f46eZgoPC/vt+17pDnxWlTnVHZikPj1pWvd8wE3NttDXl1vX+
+2O/aHltqzycVhj8ZW/ql/VBP/2T68m9ynLUdo/zZFR1T0cN5xz9tjGH63okfSQmN
+nmb7csMDtgX6xEatfu3wn+sS77ZMPPLr9E6v21VXsWfEcyZjrj7//lh24UouKDPC
+s8/WCR6dmD0ERP3oV0k923/8vqUv4LfPvaWzO8+O+qaRy7cn1TOB5zYX7XkxPvX1
+91zDQ0HutaGm+iyT1rspcY17/T3q11ymTfr4ckD8RlDDxt28ongbPYMLk1RRburv
+R1trLFUBXSELH1wH/d5zfT27C/QW+9cV3d2JdyrWq28PXixf8fgGSgxy//3qBWdm
+TVmaOv1yyYPTzelHhlq3Vs6pXc3hO9wXT+shlfd9wqiBV05d3fFTdPM/AbNr/Bsu
+f9u+K+Nq10RT6RcT3vYNGdEv3cwZs962Bp16s/2kd6h1c+FMsh4Tc6Dh55zCjrrY
+41fi/npSMnepV+psXZn+tLNpJq+u41nEBY8vNZ7ZcWtZtbD6TNim27XtHtZv/ESk
+W//hjn+6MpofXdz14ZbmpgMPNp70uRcVmi0NfnTQfH4+fipLamwZ9MbAzoidefpC
+rO3Yw5HciOTDzuStiZ0hldK7A2l3d//iuZFMt6Q1Rw637jVPBw9Q1Z8crNowf2RV
+SnbvEvGpFSWvnf9jy2zcsoSqpH8B
+=lCOA
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
