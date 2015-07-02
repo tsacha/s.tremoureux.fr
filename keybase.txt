@@ -1,0 +1,70 @@
+==================================================================
+https://keybase.io/tsacha
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://s.tremoureux.fr
+  * I am tsacha (https://keybase.io/tsacha) on keybase.
+  * I have a public key with fingerprint 8D40 89C7 461C 0E8E 0614  2633 8851 B6B9 C724 08E3
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "8d4089c7461c0e8e061426338851b6b9c72408e3",
+            "host": "keybase.io",
+            "key_id": "8851b6b9c72408e3",
+            "kid": "01014b919f4e25eae9574a8ddb4bf73620a8fda8b069cc62c5a379b4980424f743e40a",
+            "uid": "43cdd1599c31749df29c093d0ca50900",
+            "username": "tsacha"
+        },
+        "service": {
+            "hostname": "s.tremoureux.fr",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1435672472,
+    "expire_in": 157680000,
+    "prev": "c1bfa76fce25a82194efcbfb284da35fe1208ff99153afb07749fb03f820d175",
+    "seqno": 28,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFlUmlMXFUYfcMidJpaRDuIQsHXAEUH+vZlWCpUm6qJLUXilopvuQ8eyLxx5g07
+hQKVQMFaaAixKCnSgSkJbeOSSK0aUIEQp6DFhhYQKpQAUoOKrUld7iP1l/fPl/ud
+8517z8n3zhZ/JNjURZTVT3luJptGl0Qkq7mjvQwVNbkEtZWh+WCjKKo9BzgdTtWu
+ozaUkymM4yWWYnAJAxzAGJwiGJLkOBoXGREiBCQAErWiuZrLmIAyouACiaoGe/CS
+rcqGzv/5+RsAhmM4JfI4r1CAoIEAeJqlBE6WRUpUWJIhMIFTZIETMYaXJIaQaIFk
+eZHiOYwiKIWlSEBhApRzb8hRpCTLOM3zEomzFC8rBC9hPCljkkBjPIYZRBdw2oUC
+ANm6S5ByBbTCisJeoSoBIwDDxz3clag7QYHmdgJ3caLihMMOp6ZrkvYGBHN13WEz
+ZvUSh0EuAmL2PZlsUbXLMEc4UAicLlWzozYcMiVdNXRxiqQZGARLWFFQ7FCdIFs1
+GDTLcBg8xjOgEEpKuKgILKNIMBqBI3CeAookKiLBUbJA0grACYxTFJ7HaVJQRIyF
+lmEhFY7AZJylUcPYm3YNtREc/KeQY3hSc+yCDi35oxXmer+IAMQUjNwX6GcsA2Le
+FPLfhmTe3fp3bGX4ye4HvroYv79HWpn7cuaVpO1S9VimPoi1iL6CO3UL3t5D290j
+3X+ZU1ef27yktk7Pm8VJj6Nyx0tjHv9HBx6sRaqCzflnfPXjFd6EodlF5EDjcJG1
+6Vr1rPZQYMDyi1M7vo4/crAooSOhBwx05imnmotsk74t+w6d5y/V7H5t/In10siH
+2Za32zwWenptqv3w5uePzvotvH65qO8oE37gRtDyUnf+q4/4hUYdDi4dVIeeXc31
++xMPuj303mhfaJh9crD9/p3hrTEXlFOdv4Kbw9EBl/jk3jtnT5/bs9UbdOzTczEN
+C9u+/2PC6n6hZ/yLH6Sg+rq+nxoq5j5azVn0pg0v3/6sva0roj+UWMVTmtfja74x
+/WZJmguvTkfVK7NnLIvZ0XqUryrmSMRY/+/zyt2srIWr3OyTdU9N7Nz7IV/is++q
+/BzJny/vH/6n0rN79Np3ZR/k5AohF3rqy+mVrlIkOY7qocB0bGS69/G8tfXj7dz+
+DHwXl3gcj1rTrSMT85dnDnZPSLVnv216OaP36sXaX8wnqgvMe1ukpGPqYGpgbObE
+plte/+vjlo4BPo5tRdJ+fDqwLWSt9uO3eqtWIlKKW2zzpjwT4s78pLExejHd91iX
+ZZvpZOr7keU8uieupunW6TQtqyHDMjTiDZt55kq8PWv65wi6s/S8v+fG9ZR3w/4F
+=vGPO
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tsacha
+
+==================================================================
