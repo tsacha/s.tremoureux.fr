@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/index.html
 title: À propos
-description: Je m’appelle Sacha Trémoureux, j’ai 21 ans et je suis administrateur systèmes et réseaux. Je suis passionné de nouvelles technologies, en particulier en matière de logiciels libres, et amateur de cinéma sur mon temps libre.
+description: Je m’appelle Sacha Trémoureux, j’ai 23 ans et je suis administrateur systèmes et réseaux. Je suis passionné de nouvelles technologies, en particulier en matière de logiciels libres, et amateur de cinéma sur mon temps libre.
 image:
   feature: maven.jpg
   x: 50%
@@ -34,7 +34,7 @@ Je regroupe mes travaux que depuis récemment sur
 
 ## Professionnel
 
-Le CV est en cours de reconstruction. Dans la todo list.
+Je maintiens un CV en format texte disponible [ici](/cv.txt).
 
 ## Contact
 
@@ -51,7 +51,7 @@ Ma clé GPG est retrouvable :
 
 * soit de cette façon :
 
-`gpg --keyserver pgp.mid.eu --recv-keys DC500FA0`
+`gpg --keyserver pgp.mid.eu --recv-keys C72408E3`
 
 * ou bien [de cette manière](/pub.gpg)
 
@@ -59,7 +59,6 @@ Ma clé GPG est retrouvable :
 
 Quelques références culturelles que j’affectionne tout particulièrement qui me
 reviennent en tête assez facilement :
-
 
 * L’univers de David Lynch
 * Le réalisateur iranien Asghar Farhadi (Une Séparation, et le récent Le Passé)
