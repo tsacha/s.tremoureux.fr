@@ -55,6 +55,8 @@ Ma clé GPG est retrouvable :
 
 * ou bien [de cette manière](/pub.gpg)
 
+* ou encore [sur keybase.io](https://keybase.io/tsacha)
+
 ### Culture
 
 Quelques références culturelles que j’affectionne tout particulièrement qui me
