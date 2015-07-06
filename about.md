@@ -51,7 +51,7 @@ Ma clé GPG est retrouvable :
 
 * soit de cette façon :
 
-`gpg --keyserver pgp.mid.eu --recv-keys C72408E3`
+`gpg --keyserver pgp.mid.eu --recv-keys CE582DB6`
 
 * ou bien [de cette manière](/pub.gpg)
 
