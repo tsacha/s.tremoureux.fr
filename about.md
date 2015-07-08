@@ -34,9 +34,9 @@ Je regroupe mes travaux que depuis récemment sur
 
 ## Professionnel
 
-Mon CV est disponible [ici](/resume.pdf).
+Mon CV est disponible [ici](/cv.pdf).
 
-Je maintiens plug régulièrement un CV en format texte disponible [ici](/cv.txt).
+Je maintiens plus régulièrement un CV en format texte disponible [ici](/cv.txt).
 
 ## Contact
 
