@@ -1,30 +1,54 @@
-{% include head.html %}
-
-<section class="article">
-
-{% if page.image.feature %}
-  <div class="overlay" {{ % if page.image.h % }}style="height: {{page.image.h }}"{{ % endif % }}></div>
-  <div class="featured-image" style="background-image: url({{ site.url}}/images/{{ page.image.feature }}); {% if page.image.x and page.image.y %}background-position: {% if page.image.x contains 'px' %}-{% endif %}{{ page.image.x}} {% if page.image.y contains 'px' %}-{% endif %}{{page.image.y }};{% endif %}{{ % if page.image.h % }}height: {{page.image.h }};{{ % endif % }}">
-  {% if page.image.caption %}
-    {% if page.image.captionlink %}
-      <div class="featured-image-caption"><a href="{{page.image.captionlink}}">{{ page.image.caption }}</a></div>
-    {% else %}
-      <div class="featured-image-caption">{{ page.image.caption }}</div>
-    {% endif %}
-  {% endif %}
+---
+layout: header
+---
+<header style="background-image: url({{ site.baseurl }}/images/{{ page.path | split:"/" | last | replace :'md','jpg' }});">
+  <div class="container post-container">
+    <a href="{{ site.baseurl }}/" class="home_button"></a>
+    <div class="inner-container">
+      <h1>{{ page.title }}</h1>
+      <ul class="meta">
+        <li>
+          <span>
+            Publié le 
+          </span>
+          {{ page.date | localize: "%d %B %Y" }}
+        </li>
+        <li>
+          <span>
+            Catégorie
+          </span>
+          {{ page.categories.first | replace:'ne','né' | capitalize }}
+        </li>
+      </ul>
+      {% if page.image.caption %}
+      {% if page.image.captionlink %}
+      <div class="featured-image-caption"><a href="{{ page.image.captionlink }}">{{ page.image.caption }}</a></div>
+      {% else %}
+      <div class="featured-image-caption"><a href="{{ site.baseurl }}/images/{{ page.path | split:"/" | last | replace :'md','jpg' }}">{{ page.image.caption }}</a></div>
+      {% endif %}
+      {% endif %}        
+    </div>
+    <ul class="pagination">
+      {% if page.previous.url %}
+        <li class="previous">
+          <a href="{{ site.baseurl }}{{ page.previous.url }}">
+            Précédent
+          </a>
+        </li>
+      {% endif %}
+      {% if page.next.url %}
+      <li class="next">
+        <a href="{{ site.baseurl }}{{ page.next.url }}">
+          Suivant
+        </a>
+      </li>
+      {% endif %}
+    </ul>
   </div>
-{% endif %}
+</header>
 
-      <article class="wrap post">
-        <header class="post-header">
-          <h1>{{page.title}}</h1>
-          <p class="date">le {{page.date | localize: "%d %B %Y" }}</p>
-          <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
-        </header>
-
-        {{ content }}
-      </article>
-
-    </section>
-
-{% include footer.html %}
+<article>
+  <div class="container">
+    {{ content }}
+  </div>
+</article>

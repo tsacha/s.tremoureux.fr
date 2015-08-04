@@ -7,10 +7,6 @@ modified: 2014-01-03
 image:
   feature: norvege-balestrand.jpg
   caption: Balestrand, Norvège — CC BY 3.0 Sacha Trémoureux
-  h: 350px
-  x: 100%
-  y: 65%
-  captionlink: /images/norvege-balestrand.jpg
 ---
 
 Maintenant que notre serveur dispose des prérequis pour faire tourner LXC, il

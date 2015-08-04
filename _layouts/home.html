@@ -1,31 +1,59 @@
-{% include head-dark.html %}
-      <section class="article archive">
-        <article class="archive-wrap">
-          <h2><span class="bb">{{ page.title }}</span></h2>
-            <ol class="post-list">
-              {% if page.category %}
-                {% sorted_for post in site.categories sort_by:order %}
-                <li>
-                  <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-                      <h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
-                      <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">le {{ post.date | localize: "%d %B %Y" }}</time></p>
-                      <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
-                  </div>
-                </li>
-                {% endsorted_for %}
-              {% else %}
-                {% sorted_for post in site.posts sort_by:order %}
-                <li>
-                  <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-                      <h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
-                      <p class="date">{{post.category}} — <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">le {{ post.date | localize: "%d %B %Y" }}</time></p>
-                      <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
-                  </div>
-                </li>
-                {% endsorted_for %}
-              {% endif %}
-            </ol>
-        </article>
-      </section>
+---
+layout: header
+---
+<header id="home-header" style="background-image: url({{ site.baseurl }}/images/home.jpg">
+  {% if page.category %}	
+  <div class="container post-container">
+		<a href="{{ site.baseurl }}/" class="home_button"></a>
+	</div>
+	{% endif %}
 
-{% include footer.html %}
+  <div class="container">
+    <h1>{{ site.title }}</h1>
+    <ul class="meta">
+      <li>
+        <span>
+          {{ site.description }}
+        </span>
+      </li>
+    </ul>
+  </div>
+
+	<div class="links">
+		<ul>
+			{% for category in site.categories %}
+			<li><a href="/{{category[0]}}">{{category[0] | replace:'ne','né' | capitalize }}</a></li>
+			{% endfor %}
+
+			{% for link in site.links %}
+			<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+	
+</header>
+<article>
+  <div class="container">
+    <ul class="posts">
+      {% if page.category %}
+      {% sorted_for post in site.categories sort_by:order %}			
+      <li>
+        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <span class="meta">
+					le {{ post.date | localize: "%d %B %Y" }}
+        </span>
+      </li>
+      {% endsorted_for %}
+      {% else %}
+      {% sorted_for post in site.posts sort_by:order %}
+      <li>
+        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <span class="meta">
+					le {{ post.date | localize: "%d %B %Y" }} dans {{ post.categories.first | replace:'ne','né' | capitalize }}
+        </span>
+      </li>
+      {% endsorted_for %}
+			{% endif %}
+    </ul>
+  </div>
+</article>

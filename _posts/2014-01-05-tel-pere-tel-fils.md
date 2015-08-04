@@ -6,15 +6,11 @@ category: cinema
 image:
   feature: tel-pere-tel-fils.jpg
   caption: "Tel père, tel fils — <a href='http://www.le-pacte.com/'>© Le Pacte</a>"
-  captionlink: images/tel-pere-tel-fils.jpg
-  h: 100vh
-  x: 100%
-  y: 10%
 ---
 
 Pouet,
 
-Les sorties de fin d’année mettant en avant le cinéma asiatique, je continue sur
+Les sorties de fin d’année mettant en avant le cinema asiatique, je continue sur
 ma lancée avec Tel père, tel fils ; film japonais réalisé par Hirokazu
 Kore-eda. Il raconte l’histoire d’un couple fortuné au Japon dont l’enfant de
 six ans s’avère ne pas être leur enfant biologique suite à un échange accidentel

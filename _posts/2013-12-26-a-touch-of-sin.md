@@ -6,10 +6,6 @@ category: cinema
 image:
   feature: a-touch-of-sin.jpg
   caption: "A Touch of Sin — <a href='http://rapideyemovies.de/'>© Rapid Eye Movies</a>"
-  captionlink: images/a-touch-of-sin.jpg
-  h: 100vh
-  x: 100%
-  y: 10%
 ---
 
 Hello,

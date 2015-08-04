@@ -1,33 +1,12 @@
-title:            Réservoir de pensées fuyantes
-subtitle:         Sacha Trémoureux
-description:      Publications principalement sur le cinéma et Linux
-canonical:        https://s.tremoureux.fr
-owner:
-  name:           Sacha Trémoureux
-  email:          sacha@tremoureux.fr
-  url:            "http://s.tremoureux.fr/"
-  avatar:         avatar.png
-  bio:            "Administrateur systèmes et réseaux"
-  github:         tsacha
-  location:       "Nantes, France"
+title: 'Sacha Trémoureux'
+description: 'Réservoir de pensées fuyantes'
 
-tools:
-  standards:      "HTML, SCSS, Jekyll"
-  software:       "git"
-
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: À propos
-    url: /about
-  - title: Github
-    url: https://github.com/tsacha/
-    external: true
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Paris
-future:      true
 highlighter: pygments
+baseurl:
+
+sass:
+    style: :compressed
+
 markdown:    kramdown
 
 kramdown:
@@ -43,16 +22,23 @@ kramdown:
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: class
-sass:
-    style: :compressed
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
+
+timezone:    Europe/Paris
+future:      true
+
 permalink:   /:categories/:title
 
-
-
 default_locale: fr
-authorized_locales: [en, fr]
+
+links:
+  - title: À propos
+    url: /about/
+  - title: Norvège 2012
+    url: /norvege/
+  - title: Github
+    url: https://github.com/tsacha/
+    external: true
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]

@@ -1,14 +1,10 @@
 ---
 layout: page
-permalink: /about/index.html
+permalink: /about/
 title: À propos
-description: Je m’appelle Sacha Trémoureux, j’ai 23 ans et je suis administrateur systèmes et réseaux. Je suis passionné de nouvelles technologies, en particulier en matière de logiciels libres, et amateur de cinéma sur mon temps libre.
-image:
-  feature: maven.jpg
-  x: 50%
-  y: 100%
-  h: 20px
 ---
+
+Je m’appelle Sacha Trémoureux, j’ai 23 ans et je suis administrateur systèmes et réseaux. Je suis passionné de nouvelles technologies, en particulier en matière de logiciels libres, et amateur de cinéma sur mon temps libre.
 
 Je suis originaire de la
 [presqu’île guérandaise](http://www.openstreetmap.org/?lat=47.3745&amp;amp;lon=-2.373&amp;amp;zoom=12&amp;amp;layers=M)
