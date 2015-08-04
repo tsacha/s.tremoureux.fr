@@ -17,16 +17,9 @@ professionnelle ASRALL (Administration Systèmes et Réseaux à base de Logiciel
 Libres). Je dispose également d’un diplôme universitaire technologique (DUT) en
 Informatique obtenu au sein de l’IUT de Nantes.
 
-## Technologies
+## Réalisations
 
-Je suis à l’heure actuelle un jeune utilisateur actif en termes de logiciels
-libres. Je m’oriente de plus en plus vers l’administration systèmes à la fois
-personnellement et professionnellement.
-
-### Réalisations
-
-Je regroupe mes travaux que depuis récemment sur
-[GitHub](https://github.com/tsacha/).
+Je regroupe mes travaux sur [GitHub](https://github.com/tsacha/).
 
 ## Professionnel
 
@@ -43,7 +36,7 @@ Vous pouvez me contacter au choix :
 
 Je me ferai un plaisir de vous répondre dès que possible.
 
-### GPG
+## GPG
 
 Ma clé GPG est retrouvable :
 
@@ -55,7 +48,7 @@ Ma clé GPG est retrouvable :
 
 * ou encore [sur keybase.io](https://keybase.io/tsacha)
 
-### Culture
+## Culture
 
 Quelques références culturelles que j’affectionne tout particulièrement qui me
 reviennent en tête assez facilement :
@@ -67,3 +60,8 @@ reviennent en tête assez facilement :
 * Les mélodies planantes de Sigur Rós
 * et tant d'autres…
 
+## Licence et auteurs
+
+Propulsé par [Jekyll](http://jekyllrb.com) revêtu du thème [Hyde](http://hyde.getpoole.com) modifié par [mes soins](https://github.com/tsacha/s.tremoureux.fr).
+
+Réservoir de pensées fuyantes de [Sacha Trémoureux](http://sacha.tremoureux.fr/) est mis à disposition selon les termes de la [licence Creative Commons Attribution 4.0 France](http://creativecommons.org/licenses/by/4.0/deed.fr).
