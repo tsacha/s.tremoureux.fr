@@ -10,7 +10,7 @@ image:
   captionlink: http://commons.wikimedia.org/wiki/File:Nantes_Erdre-01.jpg?uselang=fr
 ---
 
-# Installation d’Oslo
+## Installation d’Oslo
 
 Avant de pouvoir déployer nos conteneurs, nous allons essayer d’avoir un serveur
 opérationnel et en mesure d’héberger tous nos conteneurs.
@@ -42,7 +42,7 @@ Au final dans l’install.conf ça nous donne ceci pour les lignes à modifier :
 Ensuite F2 pour sauvegarder, F10 pour continuer, yes, yes, I will destroy the
 world, confirm. À la fin de l’installation on peut redémarrer la bécanne.
 
-# Préparation d’un noyau
+## Préparation d’un noyau
 
 Nous allons utiliser OpenVSwitch pour le réseau virtuel, nous avons également
 besoin de quelques ajouts dans les cgroups par rapport au noyau de base de
@@ -108,7 +108,7 @@ sur le bon noyau.
     Linux oslo.s.tremoureux.fr 3.12.2 #3 SMP Thu Dec 5 09:23:11 CET 2013 x86_64
     GNU/Linux
     
-# Installation de Puppet Agent
+## Installation de Puppet Agent
 
 Le dernier prérequis pour que le serveur soit prêt à être configuré est
 l’installation de Puppet Agent. Pour cela, nous avons juste à rajouter le dépôt

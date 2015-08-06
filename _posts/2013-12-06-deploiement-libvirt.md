@@ -16,7 +16,7 @@ classes Puppet que j’utilise pour cette tâche. L’article est donc à lire a
 les [sources](https://github.com/tsacha/puppet) à côté.
 
 
-# Généricités 
+## Généricités 
 
 La première des choses que je déploie sur le serveur est une réorganisation des
 dépôts pour Debian afin de permettre le pinning depuis Testing ou encore la
@@ -25,9 +25,9 @@ base tels que Emacs et DBus. Ces deux tâches sont stockées dans une classe
 system qui est plutôt générique et qui est appellée dans à peu près tous mes
 serveurs et conteneurs.
 
-# Installation du réseau
+## Installation du réseau
 
-## Variables Puppet
+### Variables Puppet
 
 Dans Puppet Dashboard, `oslo.s.tremoureux.fr` dispose des variables suivantes :
 
@@ -42,7 +42,7 @@ Dans Puppet Dashboard, `oslo.s.tremoureux.fr` dispose des variables suivantes :
 * ip_range_private : 10.1.0.0
 * cidr : 27
 
-## Openvswitch
+### Openvswitch
 
 J’ai besoin ensuite de configurer le réseau du serveur pour être en mesure de
 faire communiquer mes futurs conteneurs. Pour cela, j’utilise Openvswitch qui
@@ -60,7 +60,7 @@ Ainsi, l’ordre des opérations est le suivant :
 * Lancement d’OVS
 
 
-## Parefeu & NAT
+### Parefeu & NAT
 
 Mes conteneurs communiqueront avec l’extérieur en IPv4. Quelques opérations
 sommaires sont à déployer :
@@ -71,11 +71,11 @@ sommaires sont à déployer :
   [un petit script](https://raw.github.com/tsacha/puppet/master/tsacha_hypervisor/templates/network_iptables.erb)
   qui est activé avant le démarrage des interfaces réseaux pour cela (`/etc/network/if-pre-up.d/iptables`).
   
-## Création des interfaces virtuelles
+### Création des interfaces virtuelles
 
 S’en suit logiquement la création des interfaces virtuelles.
 
-### `br-ex`
+#### `br-ex`
 
 * Création de `br-ex`, mon bridge qui est directement relié à mon interface
   physique `eth0`. Mes conteneurs utiliseront directement ce bridge pour discuter
@@ -86,7 +86,7 @@ S’en suit logiquement la création des interfaces virtuelles.
 * Modification des règles de routage pour faire transiter le trafic vers `br-ex`.
 * Nettoyage des adresses IP d’`eth0`.
 
-### `br-int`
+#### `br-int`
 
 On répète à peu près les mêmes étapes :
 
@@ -94,12 +94,12 @@ On répète à peu près les mêmes étapes :
   les conteneurs.
 * Activation et création de l’adressage IP de `br-int`.
 
-## Conservation au démarrage 
+### Conservation au démarrage 
 
 Le fichier `/etc/network/interfaces` est modifié en conséquences pour tenir
 compte de ces modifications.
 
-# Déploiement de LXC
+## Déploiement de LXC
 
 Une fois le réseau prêt, on peut s’attaquer à LXC. Dans l’ordre, ma classe
 Puppet effectue les tâches suivantes :
@@ -117,7 +117,7 @@ Les
 sont plutôt claires concernant cette partie. Quelques petits points d’ombres
 sont tout de même à éclaircir.
 
-## Montage des cgroups
+### Montage des cgroups
 
 Pour permettre l’isolation des processus, LXC nécessite que les cgroups soient
 montés. La façon dont ils sont montés dans Debian Wheezy semble quelque peut
@@ -126,7 +126,7 @@ obligés de tricher pour parvenir à nos fins. La
 [documentation de libvirt](http://libvirt.org/cgroups.html#createNonSystemd)
 décrit plus ou moins la procédure.
 
-## Modifications diverses de libvirt
+### Modifications diverses de libvirt
 
 Mon
 [dossier templates](https://github.com/tsacha/puppet/tree/master/tsacha_hypervisor/templates)
@@ -138,7 +138,7 @@ dispose de quelques fichiers de configuration. À retenir :
 * Je désactive le TLS pour libvirtd.
 
 
-# Utilisation de LXC & LibVirt
+## Utilisation de LXC & LibVirt
 
 J’utilise
 [un script](https://raw.github.com/tsacha/puppet/master/tsacha_hypervisor/templates/generate_container.rb.erb)
