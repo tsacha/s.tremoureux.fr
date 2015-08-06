@@ -131,7 +131,7 @@ header .container {
 }
 
 
-@media screen and (min-width: 961px){
+@media (min-width: 961px){
   #home-header .container {
     position: absolute;
     top: 30%;
@@ -161,7 +161,7 @@ header .container {
   }
 }
 
-@media screen and (max-width: 960px){
+@media (max-width: 960px){
   #home-header .container {
     padding: 20px 50px;
   }
@@ -241,7 +241,7 @@ header .links ul a:hover {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 767px){
+@media (max-width: 767px){
   header ul.meta {
     margin-top: 10px;
   }
@@ -266,7 +266,7 @@ header ul.meta li span {
 
 /* Pagination */
 
-@media screen and (min-width: 961px){
+@media (min-width: 961px){
   .pagination {
     position: absolute;
     right: 10px;
@@ -275,7 +275,7 @@ header ul.meta li span {
   }  
 }
 
-@media screen and (max-width: 960px){
+@media (max-width: 960px){
   .pagination {
     margin-top: 40px;
     padding: 0 10px;
@@ -295,11 +295,23 @@ header ul.meta li span {
   color: rgba(255, 255, 255, 0.75);
 }
 
-.featured-image-caption-home {
-  float: right;  
-  margin-right: 0.4em;
-  margin-top: -0.4em;
+
+@media (max-width: 960px){
+  .featured-image-caption-home {
+    position: absolute;
+    top: 0.2em;
+    right: 1em;
+  }    
 }
+
+@media (min-width: 960px){
+  .featured-image-caption-home {
+    float: right;
+    margin-right: 0.4em;
+    margin-top: -0.4em;
+  }  
+}
+
 .featured-image-caption-home a {
   color: rgba(255, 255, 255, 0.35);
   text-decoration: none;
