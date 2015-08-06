@@ -108,7 +108,7 @@ vêtements totalement tremplés. L'aventure ! Je prends mes habitudes
 alimentaires : boîte de sardine, pain, confiture (super pratique,
 comme les bouteilles de ketchup !), concombre.
 
-## Jour 5 — Stavanger → Prekestolen
+## Jour 5 — Stavanger → Preikestolen
 
 Stavanger, c'est le genre de ville idéale : un petit lac sert de
 centre. Les arrêts de la vingtaine de lignes de bus sont répartis tout
@@ -118,7 +118,7 @@ satisfaction de parler mieux une langue que son interlocuteur !
 Cocorico.
 
 Je quitte la ville pour ma première expédition nature : le
-Prekestolen, un rocher archi touristique. La randonnée dure deux
+Preikestolen, un rocher archi touristique. La randonnée dure deux
 heures aller et une heure et demie pour le retour. Comme je fais pas
 tout comme tout le monde, j'ai débuté vers 19h. En gros, le nombre
 faramineux de touristes repartait et dans mon sens très peu de
@@ -136,7 +136,7 @@ connaissances des allemands et un couple de néo-zélandais. On m'a même
 offert le café. J'ai posé (et non planté) ma tente sur ce magnifique
 rocher avec en-dessous le vide.
 
-## Jour 6 — Prekestolen → Bergen
+## Jour 6 — Preikestolen → Bergen
 
 Nuit courte : levé à 4h45 pour apprécier le levé du soleil. Nous avons
 réussi à grimper et prendre quelques photos. La descente sera plus
