@@ -32,11 +32,12 @@ h6 {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
+h1,h1 a {
   line-height: 1.3;
   font-weight: 600;
   font-size: 48px;
   color: #FFF;
+  text-decoration: none;
 }
 
 h2 {
@@ -292,6 +293,17 @@ header ul.meta li span {
 .featured-image-caption a {
   font-size: 0.6em;
   color: rgba(255, 255, 255, 0.75);
+}
+
+.featured-image-caption-home {
+  float: right;  
+  margin-right: 0.4em;
+  margin-top: -0.4em;
+}
+.featured-image-caption-home a {
+  color: rgba(255, 255, 255, 0.35);
+  text-decoration: none;
+  font-size: 0.4em;  
 }
 
 .previous {

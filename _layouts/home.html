@@ -1,15 +1,10 @@
 ---
 layout: header
 ---
-<header id="home-header" style="background-image: url({{ site.baseurl }}/images/home.jpg">
-  {% if page.category %}	
-  <div class="container post-container">
-		<a href="{{ site.baseurl }}/" class="home_button"></a>
-	</div>
-	{% endif %}
+<header id="home-header" style="background-image: url({{ site.baseurl }}/images/{{ page.path | replace:'md','jpg'}}">
 
   <div class="container">
-    <h1>{{ site.title }}</h1>
+    <h1><a href="/">{{ site.title }}</a></h1>
     <ul class="meta">
       <li>
         <span>
@@ -18,6 +13,14 @@ layout: header
       </li>
     </ul>
   </div>
+
+  {% if page.image.caption %}
+  {% if page.image.captionlink %}
+  <div class="featured-image-caption-home"><a href="{{ page.image.captionlink }}">{{ page.image.caption }}</a></div>
+  {% else %}
+  <div class="featured-image-caption-home"><a href="{{ site.baseurl }}/images/{{ page.path | split:"/" | last | replace :'md','jpg' }}">{{ page.image.caption }}</a></div>
+  {% endif %}
+  {% endif %}  
 
 	<div class="links">
 		<ul>
