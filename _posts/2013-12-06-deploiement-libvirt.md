@@ -5,8 +5,7 @@ description: "Description des classes Puppet s’occupant de la base de l’arch
 category: technologies
 modified: 2014-01-03
 image:
-  feature: norvege-balestrand.jpg
-  caption: Balestrand, Norvège — CC BY 3.0 Sacha Trémoureux
+  caption: Balestrand, Norvège — CC BY 4.0 Sacha Trémoureux
 ---
 
 Maintenant que notre serveur dispose des prérequis pour faire tourner LXC, il

@@ -5,7 +5,6 @@ description: "Installation du serveur « Oslo », d’un noyau récent, et de Pu
 category: technologies
 order: 0
 image:
-  feature: nantes-erdre.jpg
   caption: Bords de l'Erdre à Nantes de nuit — CC BY-SA 3.0 <a href='http://commons.wikimedia.org/wiki/User:Pymouss44'>Pymouss44</a>
   captionlink: http://commons.wikimedia.org/wiki/File:Nantes_Erdre-01.jpg?uselang=fr
 ---

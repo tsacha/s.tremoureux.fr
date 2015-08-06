@@ -4,7 +4,6 @@ title: "Tel père, tel fils"
 description: "Affaires familiales japonaises"
 category: cinema
 image:
-  feature: tel-pere-tel-fils.jpg
   caption: "Tel père, tel fils — <a href='http://www.le-pacte.com/'>© Le Pacte</a>"
 ---
 

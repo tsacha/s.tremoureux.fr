@@ -4,7 +4,6 @@ title: "A Touch of Sin"
 description: "Faits divers en Chine moderne"
 category: cinema
 image:
-  feature: a-touch-of-sin.jpg
   caption: "A Touch of Sin — <a href='http://rapideyemovies.de/'>© Rapid Eye Movies</a>"
 ---
 
