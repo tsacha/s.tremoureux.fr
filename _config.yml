@@ -2,27 +2,12 @@ title: 'Sacha Trémoureux'
 description: 'Réservoir de pensées fuyantes'
 
 highlighter: pygments
-baseurl:
+baseurl: ""
 
 sass:
     style: :compressed
 
-markdown:    kramdown
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
+markdown:    redcarpet
 
 timezone:    Europe/Paris
 future:      true
@@ -39,6 +24,24 @@ links:
   - title: Github
     url: https://github.com/tsacha/
     external: true
+
+
+picture:
+  source: "images/"
+  output: "generated"
+  markup: "picture"
+  presets:
+    norvege:
+      ppi: [1, 1.5]
+      source_lrg:
+        media: "(min-width: 50em)"
+        width: 800
+      source_med:
+        media: "(min-width: 30em)"
+        width: 450
+      source_default:
+        width: 350
+        height: 200
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]

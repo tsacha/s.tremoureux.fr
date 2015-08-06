@@ -377,6 +377,11 @@ article li {
   list-style-type: disc;
 }
 
+article img {
+  display: block;
+  margin: 2em auto;
+}
+
 @media (max-width: 960px) {
   article li {
     margin-left: 0;

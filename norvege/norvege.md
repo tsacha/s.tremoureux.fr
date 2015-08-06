@@ -6,8 +6,7 @@ permalink: /norvege/
 
 J'ai voyagé six semaines en été 2012 dans l'ensemble de la Norvège.
 Ceci est le carnet résumant mon aventure solitaire…
-
-
+  
 ## Jour 1 — Clermond-Ferrand → Quelque part au Danemark
 
 Un train français pour rejoindre Paris. Discuter politique avec une
@@ -17,6 +16,9 @@ sympathique avec un passage pour Bruyelles. De quoi se remémorer
 quelques chouettes souvenirs de mon petit séjour belge de 2009. Une
 heure de pause à Cologne, visite nocturne et rapide de la ville.
 Première ville, premiers bâtiments (magnifique cathédrale).
+
+{% picture norvege norvege/norvege_20120730_221218.jpg %}
+
 L'expérience me montrera que le train de nuit en première classe
 n'aurait pas été du luxe pour ce genre de trajet. L'enfer dans une
 cabine avec 4 allemands revenant d'un festival de metal.
@@ -39,7 +41,7 @@ ville avec 10 minutes de marge pour trouver un bus. Défi relevé et…
 
 L'avantage c'est d'avoir pû profiter de mon arrivée à Hirtshals avec
 2h30 d'avance. En voyage, toujours se raccrocher aux points positifs…
-toujours… et pas à cette foutue note de taxi. Premier bateau depui
+toujours… et pas à cette foutue note de taxi. Premier bateau depuis
 bien longtemps, et pas le dernier.
 
 La Norvège apparaît : belle, simplement belle. Premier contact :
@@ -66,6 +68,8 @@ Premières difficultés psychologiques, en bref : qu'est-ce que je fiche
 ici ? Avec les questions de finances et de solitude en supplément. Je
 me raccroche à la bourgade très sympathique : petit port de pêche dont
 le camping est situé dans des bois qui longent la mer.
+
+{% picture norvege norvege/norvege_20120731_210742.jpg %}
 
 Trouvant difficile de résister à la tentation financière de la veille,
 je continue à dormir gratuitement au camping.
@@ -117,6 +121,8 @@ et… un café français ! Joie ! Les Jeux Olympiques en français ! La
 satisfaction de parler mieux une langue que son interlocuteur !
 Cocorico.
 
+{% picture norvege norvege/norvege_20120803_145240.jpg %}
+
 Je quitte la ville pour ma première expédition nature : le
 Preikestolen, un rocher archi touristique. La randonnée dure deux
 heures aller et une heure et demie pour le retour. Comme je fais pas
@@ -141,6 +147,8 @@ rocher avec en-dessous le vide.
 Nuit courte : levé à 4h45 pour apprécier le levé du soleil. Nous avons
 réussi à grimper et prendre quelques photos. La descente sera plus
 simple qu'esperée.
+
+{% picture norvege norvege/norvege_20120804_051247.jpg %}
 
 Retour à Stavanger à mon café français où j'ai enchaîné le petit
 déjeuner puis le repas du midi. Remplissage d'estomac pour compenser
@@ -167,6 +175,8 @@ Bergen. La ville a son charme mais j'ai pas senti de réelle accroche,
 sûrement un problème de goûts et couleurs. La visite des musées
 n'étant pas mon délire, je ne m'attarde pas. Départ pour Fläm !
 
+{% picture norvege norvege/norvege_20120814_141241.jpg %}
+
 C'est un coin également ultra connu pour sa ligne de train qui descend
 à plus de 5%. C'est plutôt chouette à voir jusqu'à l'arrivée en bas.
 Fläm n'est juste qu'un coin à touristes. Les paysages l'entourant sont
@@ -191,6 +201,8 @@ Repos. Juste les courses, un peu de lecture, l'écriture de carnet de
 voyage. Le propriétaire du camping est passé et repart à Bergen, il
 m'a fait payé que deux nuits, je peux dormir gratuitement autant que
 je le sohuaite.
+
+{% picture norvege norvege/norvege_20120807_092502.jpg %}
 
 J'ai repéré une grosse randonnée près d'un glaiver, je vais en
 profiter d'être reposé et ne pas avoir à trimballer tout le contenu de
@@ -224,6 +236,8 @@ les 10 minutes pour manger et boire.
 
 En haut : la glace (un peu), une vue de malade, le vent et surtout une
 énorme satisfaction. Environ 3h40 pour monter.
+
+{% picture norvege norvege/norvege_20120808_125737.jpg %}
 
 La descente fût elle aussi une lente agonie, quasiment aussi lente que
 la montée. Je prends mes précautions pour ne pas me retrouver la tête
@@ -279,6 +293,8 @@ Visite d'Ålesund. La ville est sympathique, mais sans plus. J'ai fait
 un musée sur l'Art Nouveau pour tuer le temps. La vieille pharmacie
 dans laquelle il est situé sera plus mémorable que le contenu de
 l'exposition.
+
+{% picture norvege norvege/norvege_20120812_124415.jpg %}
 
 Départ en bus pour Trondheim au travers d'un trajet bieeeeeeeeen long
 (7h30). Je parle avec une grand-mère norvégienne, mais pour une fois,
@@ -361,6 +377,8 @@ plein d'eau. La randonnée fût une attrocité, du moins au début. Je ne
 prends aucun plaisir dans les premiers kilomètres et je rencontre de
 grosses difficultés avec le sac à dos.
 
+{% picture norvege norvege/norvege_20120817_171649.jpg %}
+
 Après 15 minutes de réflexion, je prends mon courage à deux mains pour
 aller au boût de la randonnée dans le brouillard.
 
@@ -373,6 +391,8 @@ Descente de la randonnée, plutôt balèze mais je découvre enfin le
 paysage avec la levée du brouillard. Je croise un italien qui souhaite
 m'entraîner dans des sentiers trop compliqués pour moi.
 
+{% picture norvege norvege/norvege_20120818_123139.jpg %}
+
 La fin de ma randonnée tombe vers Å, un chouette village mais l'état
 de mes pieds a plutôt écourté la visite. Je retourne enfin vers
 Moskenes en prenant les courses au passage. Longue longue agonie des
@@ -383,6 +403,8 @@ pieds pour rentrer au camping (que je ne paie toujours pas).
 Journée de repos, rien à signaler. Petite marche vers Reine en fin de
 journée, je tombe nez à nez avec mon fond d'écran. J'hésite à planter
 ma tente dans les environs mais non, trop claqué.
+
+{% picture norvege norvege/norvege_20120819_172408.jpg %}
 
 ## Jour 22 — Moskenes → Børg
 
@@ -446,6 +468,8 @@ Je visite Tromsø avec la problématique de devoir traverser plusieurs
 ce foutu pont pour m'adapter aux différentes horaires d'ouverture.
 Notamment l'église située à l'extérieur ouvert de 15 à 18.
 
+{% picture norvege norvege/norvege_20120824_101224.jpg %}
+
 À l'office de tourisme :
 
 > « Are you student?
@@ -478,6 +502,8 @@ Je suis vite sorti de la ville déserte (vu l'heure) pour planter la
 tente. Mission rapidement accomplie : juste à côté d'un petit lac
 sympathique. Je dors de 7h à 14h pour rattraper un peu le sommeil.
 
+{% picture norvege norvege/norvege_20120825_192939.jpg %}
+
 Courses, visite rapide de la ville malgré pas mal de choses fermées à
 cause du week-end. Je retourne rapidement dans ma tente pour profiter
 du coin super agréable en visitant les colines alentours.  Je
@@ -509,6 +535,8 @@ au cap Nord.
 Super trajet, paysages géniaux avec une absence de plus en plus
 remarquée de végétation. Le Cap Nord en lui même a une allure de fin
 du monde malgré l'exploitation très commerciale du site.
+
+{% picture norvege norvege/norvege_20120827_150220.jpg %}
 
 Socialement, je passe un très bon moment, on arrive à communiquer
 assez facilement.
@@ -567,6 +595,8 @@ l'intérieur. Je me prends la tête avec l'organisation : je sens que je
 vais arriver trop tôt au point final du voyage. Je m'imagine toute
 sorte de plans, sans grand succès.
 
+{% picture norvege norvege/norvege_20120830_203042.jpg %}
+
 Je fais des aller-retours entre ma tente et la ville.
 
 ## Jour 33 — Karasjok → Båtsfjord
@@ -596,6 +626,8 @@ horaires pour le bateau vers Kirkenes. Je rentre donc vers ma tente
 pour reprendre mes affaires. Grosse galère, le sol est trempé, il
 pleut, et j'égare mes lunettes dans une haie en déplaçant mes
 affaires. Gros pic de stress passager, je parviens à les retrouver.
+
+{% picture norvege norvege/norvege_20120901_152929.jpg %}
 
 Habillé de mes affaires de rechange, et donc à peu près au sec, je
 retourne en ville. S'en suivra une longue attente du bateau qui
@@ -637,6 +669,8 @@ croise des militaires norvégiens en mission, et énormément de jeeps
 faisant des aller-retours. La frontière n'est qu'un symbole mais je
 suis satisfait d'y être arrivé.
 
+{% picture norvege norvege/norvege_20120905_145716.jpg %}
+
 Rien d'autre à signaler, si ce n'est quelques problèmes de sol et de
 feuilles morte.
 
@@ -648,15 +682,19 @@ norvégienne.
 
 En plus de gagner quasiment 15 degrés d'un coup, passer de la nature
 avec très peu de personnes à une ville blindée de gens est très
-perturbant. Je retrouve tout de même goût à la civilisation. Je prends
+perturbant.
+
+{% picture norvege norvege/norvege_20120908_204517.jpg %}
+
+Je retrouve tout de même goût à la civilisation. Je prends
 le temps d'apprécier l'architecture de certains bâtiments d'Oslo ainsi
 que le confort d'un bon restaurant !
+
+{% picture norvege norvege/norvege_20120908_150312.jpg %}
 
 Je termine la journée en me précipitant vers le Monolith situé dans le
 Frognerparken, étape ultime de mon voyage. Dernières photos, et je
 cours vers le train qui me mènera vers l'aéroport.
 
 Retour à Paris, puis Nancy. Une nouvelle ville à découvrir !
-
-
 
