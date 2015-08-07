@@ -12,7 +12,7 @@ Ceci est le carnet résumant mon aventure solitaire…
 Un train français pour rejoindre Paris. Discuter politique avec une
 personne âgée de 80 ans et catholique fût une expérience assez
 hillarante. À Paris, j'ai pris le train pour Cologne : ligne très
-sympathique avec un passage pour Bruyelles. De quoi se remémorer
+sympathique avec un passage pour Bruxelles. De quoi se remémorer
 quelques chouettes souvenirs de mon petit séjour belge de 2009. Une
 heure de pause à Cologne, visite nocturne et rapide de la ville.
 Première ville, premiers bâtiments (magnifique cathédrale).
@@ -34,12 +34,12 @@ Misère…
 
 ## Jour 2 — Quelque part au Danemark → Mandal
 
-Quatres petites heures de sommeil plus tard arrivée au Danemark avec
+Quatre petites heures de sommeil plus tard, arrivée au Danemark avec
 1h de retard. Quelques changements de train pour se trouver dans une
 ville avec 10 minutes de marge pour trouver un bus. Défi relevé et…
 échoué ! 110€ de taxi.
 
-L'avantage c'est d'avoir pû profiter de mon arrivée à Hirtshals avec
+L'avantage c'est d'avoir pu profiter de mon arrivée à Hirtshals avec
 2h30 d'avance. En voyage, toujours se raccrocher aux points positifs…
 toujours… et pas à cette foutue note de taxi. Premier bateau depuis
 bien longtemps, et pas le dernier.
