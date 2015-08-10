@@ -130,7 +130,6 @@ header .container {
   z-index: 1;
 }
 
-
 @media (min-width: 961px){
   #home-header .container {
     position: absolute;
@@ -139,6 +138,10 @@ header .container {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+  }
+
+  .header {
+    box-shadow: inset -20px 0 20px -20px hsla(0,0%,0%,.5);
   }
 
   header .container {
@@ -165,6 +168,10 @@ header .container {
   #home-header .container {
     padding: 20px 50px;
   }
+
+  .header {
+    box-shadow: inset 0 -30px 30px -30px hsla(0,0%,0%,.65);    
+  }  
 
   #home-header .container.post-container {
     padding: 20px 50px;
