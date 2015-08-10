@@ -33,6 +33,7 @@ h6 {
 }
 
 h1,h1 a {
+  text-shadow: 1px 1px 15px rgba(0,0,0,.5);
   line-height: 1.3;
   font-weight: 600;
   font-size: 48px;
