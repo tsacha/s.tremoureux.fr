@@ -200,7 +200,7 @@ du monde. Chouette endroit pour se reposer d'une semaine éprouvante.
 Repos. Juste les courses, un peu de lecture, l'écriture de carnet de
 voyage. Le propriétaire du camping est passé et repart à Bergen, il
 m'a fait payé que deux nuits, je peux dormir gratuitement autant que
-je le sohuaite.
+je le souhaite.
 
 {% picture norvege norvege/norvege_20120807_092502.jpg %}
 
@@ -271,7 +271,7 @@ choses à signaler si ce n'est la cascade super bruyante.
 
 ## Jour 13 — Geirenger → Ålesund
 
-Impossible de randonner dans le coin vu l'état de mes genous. En
+Impossible de randonner dans le coin vu l'état de mes genoux
 compensation, j'ai prit le bateau qui fait le tour du fjord. Très
 sympathique, cascades de partout, et le fjord est hyper étroit. Vu le
 monde à randonner, content de ne pas y être allé.
@@ -418,8 +418,8 @@ Je fais du camping sauvage dans un champ avec plein de miam-miam.
 
 ## Jour 23 — Børg → Narvik
 
-Décollage… raté ! J'ai réuss à zaper mes lunettes dans le pliage de la
-tenet. Vingt minutes de perdues et grosse frayeur pour leur état, mais
+Décollage… raté ! J'ai réussi à zaper mes lunettes dans le pliage de la
+tente. Vingt minutes de perdues et grosse frayeur pour leur état, mais
 rassuré rapidement.
 
 Je me suis ensuite dirigé vers le musée viking, plutôt sympa, quelque
@@ -436,7 +436,7 @@ Le trajet est sympa sur le long des Lofoten avec ses eaux turquoises.
 Nous descendons un peu avant Narkik pour rejoindre au plus vite le
 camping.
 
-Installation de la tente sur du granit ou presque… puis nous faisons
+Installation de la tente sur du granite ou presque… puis nous faisons
 les courses ensemble. Nous arrivons trop tard pour acheter de l'alcool
 en revanche…
 
@@ -464,9 +464,10 @@ froides.
 
 ## Jour 26 — Tromsø → Hammerfest
 
-Je visite Tromsø avec la problématique de devoir traverser plusieurs
-ce foutu pont pour m'adapter aux différentes horaires d'ouverture.
-Notamment l'église située à l'extérieur ouvert de 15 à 18.
+Je visite Tromsø avec la problématique de devoir traverser à plusieurs
+reprises ce foutu pont pour m'adapter aux différentes horaires
+d'ouverture. Notamment l'église située à l'extérieur ouverte de 15 à
+18.
 
 {% picture norvege norvege/norvege_20120824_101224.jpg %}
 
@@ -570,7 +571,7 @@ Je pose mes affaires dans les bois à l'abri des regards indiscrets.
 
 Objectif : rejoindre le parc national, y camper, puis peut-être
 rejoindre l'européenne. Pour cela : 20 kilomètres à pied rien que pour
-rejoindre le parc. 3h100 de marche plus tard, totalement claqué, je
+rejoindre le parc. 3h10 de marche plus tard, totalement claqué, je
 trouve un camping pour obtenir un peu plus d'informations, mais peine
 perdue, le gars n'est pas très utile.
 
