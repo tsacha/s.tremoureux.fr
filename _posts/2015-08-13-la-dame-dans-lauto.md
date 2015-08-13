@@ -31,7 +31,7 @@ de la forme il va y ajouter une mise en scène dont j'ai rarement été
 témoin : ça part dans tous les sens à tous les niveaux : des
 flashs-backs/forward, des scènes splittées, des jeux de couleurs
 épileptiques, une ambiance sonore assourdissante etc… etc… etc… J'ai
-été totalement assommé. Le film souhaite sûrement nous retranscrire à
+totalement été assommé. Le film souhaite sûrement nous retranscrire à
 sa façon la schizophrénie du personnage, et effectivement il y arrive.
 On en devient fou, on ne sait plus où mettre la tête et on en perd
 toute cohérence avec le récit.
