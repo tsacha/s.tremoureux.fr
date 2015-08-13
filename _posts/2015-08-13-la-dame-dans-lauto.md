@@ -3,6 +3,9 @@ layout: post
 title: "La Dame dans l'auto…"
 description: "Un thriller noyé"
 category: cinema
+image:
+  caption: © Kris Dewitte / Waiting For Cinéma
+  captionlink: http://waitingfor.fr/
 ---
 
 Aïe.
