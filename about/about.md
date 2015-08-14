@@ -66,6 +66,6 @@ reviennent en tête assez facilement :
 
 ## Licence et auteurs
 
-Propulsé par [Jekyll](http://jekyllrb.com) revêtu du thème [Hyde](http://hyde.getpoole.com) modifié par [mes soins](https://github.com/tsacha/s.tremoureux.fr).
+Propulsé par [Jekyll](http://jekyllrb.com) revêtu du thème [Hyde](http://hyde.getpoole.com) modifié par [mes soins](https://github.com/tsacha/s.tremoureux.fr) et déployé [de cette manière](https://github.com/beastie-eu/ansible-role-sacha) sur [ce serveur](http://beastie.eu).
 
-Réservoir de pensées fuyantes de [Sacha Trémoureux](http://sacha.tremoureux.fr/) est mis à disposition selon les termes de la [licence Creative Commons Attribution 4.0 France](http://creativecommons.org/licenses/by/4.0/deed.fr).
+Réservoir de pensées fuyantes de [Sacha Trémoureux](https://s.tremoureux.fr/) est mis à disposition selon les termes de la [licence Creative Commons Attribution 4.0 France](http://creativecommons.org/licenses/by/4.0/deed.fr).

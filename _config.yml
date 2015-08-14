@@ -17,13 +17,13 @@ permalink:   /:categories/:title
 default_locale: fr
 
 links:
-  - title: À propos
-    url: /about/
   - title: Norvège 2012
     url: /norvege/
   - title: Github
     url: https://github.com/tsacha/
     external: true
+  - title: À propos
+    url: /about/    
 
 
 picture:
