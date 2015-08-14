@@ -12,10 +12,14 @@ et j’habite actuellement dans la ville de [Nantes](http://www.openstreetmap.or
 
 ## Études
 
-J’ai étudié à l’IUT Nancy-Charlemagne où j’y ai obtenu une licence
-professionnelle ASRALL (Administration Systèmes et Réseaux à base de Logiciels
-Libres). Je dispose également d’un diplôme universitaire technologique (DUT) en
-Informatique obtenu au sein de l’IUT de Nantes.
+J’ai étudié à l’IUT Nancy-Charlemagne où j’y ai obtenu une [licence
+professionnelle
+ASRALL](http://iut-charlemagne.univ-lorraine.fr/ASRALL)
+(Administration Systèmes et Réseaux à base de Logiciels Libres). Je
+dispose également d’un [diplôme universitaire technologique (DUT) en
+Informatique](http://www.iutnantes.univ-nantes.fr/321/0/fiche___formation/)
+obtenu au sein de l’IUT de Nantes.
+
 
 ## Réalisations
 
@@ -55,7 +59,7 @@ reviennent en tête assez facilement :
 
 * L’univers de David Lynch
 * Le réalisateur iranien Asghar Farhadi (Une Séparation, et le récent Le Passé)
-* La quasi-totalité des œuvres de Joann Sfar
+* La [quasi]({% post_url 2015-08-13-la-dame-dans-lauto %})-totalité des œuvres de Joann Sfar
 * Les films de Federico Fellini (Amarcord, Huit et Demi…)
 * Les mélodies planantes de Sigur Rós
 * et tant d'autres…
