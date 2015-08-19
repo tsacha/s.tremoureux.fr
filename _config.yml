@@ -1,5 +1,9 @@
 title: 'Sacha Trémoureux'
 description: 'Réservoir de pensées fuyantes'
+url: 'https://s.tremoureux.fr'
+owner:
+  name: 'Sacha Trémoureux'
+  email: 'sacha@tremoureux.fr'
 
 highlighter: pygments
 baseurl: ""
