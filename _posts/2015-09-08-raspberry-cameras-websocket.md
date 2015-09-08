@@ -219,6 +219,13 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
+Je lance ffmpeg depuis un utilisateur limité. Pour les droits dans le
+dossier, on oublie par l'ACL qui va bien :
+
+```
+setfacl -m u:sacha:rwx /usr/share/nginx/html
+```
+
 J'active au démarrage les deux unités.
 
 Pour décrire les options que je passe à ffmpeg :
