@@ -14,7 +14,7 @@ Deuxième partie de mes bricolages avec le Raspberry. Une fois la
 capture d'image réalisée, j'ai tenté d'automatiser le relevé des
 températures sur les deux sondes reliées au four. Problème de taille :
 la sonde ne communique pas vers un quelconque protocole, et mes
-connaissances en électronique de suffiraient pas pour tenter quelque
+connaissances en électronique ne suffiraient pas pour tenter quelque
 chose. Je me suis donc contenté des images et d'essayer de faire de
 l'OCR.
 
@@ -63,7 +63,7 @@ jour de l'image exportée par ma caméra.
     done;
 
 J'ai de temps à autre des ratés, le compteur peut mettre un peu de
-temps à afficher un chiffre la caméra prenant une photo en mauvais
+temps à afficher un chiffre, la caméra prenant une photo en mauvais
 moment. Il peut y avoir des reflets à un moment donné ou encore une
 simple erreur de capture. Pour réduire au maximum ces erreurs, je
 vérifie tout d'abord de bien capturer un nombre positif (ssocr peut
@@ -72,7 +72,7 @@ capture précédente ne dépasse pas 3°C. En 5 secondes il est quasiment
 impossible qu'une telle montée de température se produise. J'exporte
 ensuite les résultats dans un fichier CSV horodaté.
 
-Pour éviter de surexploiter Libreoffice, j'utilise ensuite Gnuplot qui
+Pour éviter de surexploiter LibreOffice, j'utilise ensuite Gnuplot qui
 fait le travail pour générer un beau graphique.
 
 Le script se chargeant de tout ça est lancé directement au démarrage
