@@ -48,6 +48,11 @@ h2 {
   margin-top: 36px;
 }
 
+h3 {
+  font-style: italic;
+  margin-bottom: 0.4em;
+}
+
 blockquote {
   border-left: 5px solid #ddd;
   margin: 40px 1em;
@@ -298,6 +303,9 @@ header ul.meta li span {
   clear: both;
 }
 
+.featured-image-caption {
+  line-height: 0.8em;
+}
 .featured-image-caption a {
   font-size: 0.6em;
   color: rgba(255, 255, 255, 0.75);
@@ -377,6 +385,7 @@ article .container {
 
 article p {
   margin-bottom: 1em;
+  text-align: justify;
 }
 
 article li {
@@ -436,9 +445,6 @@ pre code {
 }   
 
 pre {
-  margin: 1em 0 2em 0;
-  padding: .3em;
-  background: none repeat scroll 0% 0% rgb(59, 59, 59);
   overflow-x: auto;
   overflow-y: hidden;
 }
@@ -448,12 +454,12 @@ pre {
   padding: 12px;
   border-radius: 4px;
   margin-bottom: 33px;
-  overflow-x: scroll;
+  line-height: 1em;
 }
 .highlight code {
   color: #f9f9f9;
   font-family: "Monaco", "Courier New", "Courier";
-  font-size: .9em;
+  font-size: .7em;
 }
 
 hr {

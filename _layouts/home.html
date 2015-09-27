@@ -39,7 +39,7 @@ layout: header
   <div class="container">
     <ul class="posts">
       {% if page.category %}
-      {% sorted_for post in site.categories sort_by:order %}			
+      {% sorted_for post in site.categories %}
       <li>
         <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
         <span class="meta">
@@ -48,7 +48,7 @@ layout: header
       </li>
       {% endsorted_for %}
       {% else %}
-      {% sorted_for post in site.posts sort_by:order %}
+      {% sorted_for post in site.posts %}
       <li>
         <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
         <span class="meta">

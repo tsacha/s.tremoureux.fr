@@ -16,7 +16,7 @@ markdown:    redcarpet
 timezone:    Europe/Paris
 future:      true
 
-permalink:   /:categories/:title
+permalink:   /:categories/:title/
 
 default_locale: fr
 
@@ -36,6 +36,17 @@ picture:
   markup: "picture"
   presets:
     norvege:
+      ppi: [1, 1.5]
+      source_lrg:
+        media: "(min-width: 50em)"
+        width: 800
+      source_med:
+        media: "(min-width: 30em)"
+        width: 450
+      source_default:
+        width: 350
+        height: 200
+    blog:
       ppi: [1, 1.5]
       source_lrg:
         media: "(min-width: 50em)"
