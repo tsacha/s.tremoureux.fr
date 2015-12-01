@@ -1,8 +1,6 @@
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -102,9 +100,6 @@ header {
   width: 35%;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   -webkit-filter: grayscale(0.1);
   filter: grayscale(0.1);
@@ -493,7 +488,6 @@ input {
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
-    -o-hyphens: auto;
     hyphens: auto;
     white-space: normal;  
     color: rgba(255, 255, 255, 0.5);
