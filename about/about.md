@@ -4,7 +4,7 @@ permalink: /about/
 title: À propos
 ---
 
-Je m’appelle Sacha Trémoureux, j’ai 23 ans et je suis administrateur systèmes et réseaux. Je suis passionné de nouvelles technologies, en particulier en matière de logiciels libres, et amateur de cinéma sur mon temps libre.
+Je m’appelle Sacha Trémoureux, j’ai 24 ans et je suis administrateur systèmes et réseaux. Je suis passionné de nouvelles technologies, en particulier en matière de logiciels libres, et amateur de cinéma sur mon temps libre.
 
 Je suis originaire de la
 [presqu’île guérandaise](http://www.openstreetmap.org/?lat=47.3745&amp;amp;lon=-2.373&amp;amp;zoom=12&amp;amp;layers=M)
@@ -44,11 +44,7 @@ Je me ferai un plaisir de vous répondre dès que possible.
 
 Ma clé GPG est retrouvable :
 
-* soit de cette façon :
-
-`gpg --keyserver pgp.mid.eu --recv-keys CE582DB6`
-
-* ou bien [de cette manière](/pub.gpg)
+* soit [de cette manière](/pub.gpg) :
 
 * ou encore [sur keybase.io](https://keybase.io/tsacha)
 

@@ -6,62 +6,51 @@ I hereby claim:
 
   * I am an admin of https://s.tremoureux.fr
   * I am tsacha (https://keybase.io/tsacha) on keybase.
-  * I have a public key with fingerprint 97BF C938 78BF 0264 C137  167F 47E3 A74A CE58 2DB6
+  * I have a public key with fingerprint F7D3 B43C FECF CC69 551B  7020 02B6 561A 5569 5D50
 
 To do so, I am signing this object:
 
 {
     "body": {
         "key": {
-            "fingerprint": "97bfc93878bf0264c137167f47e3a74ace582db6",
+            "eldest_kid": "01169eab8c15ea6c69978861f87037108590469da72f603df14575e3790ceab49ad30a",
+            "fingerprint": "f7d3b43cfecfcc69551b702002b6561a55695d50",
             "host": "keybase.io",
-            "key_id": "47e3a74ace582db6",
-            "kid": "0101b39982d2ec6bd62afe599f13570f125e4388e8e07c8e579d8f9bc8b5f8c5748d0a",
+            "key_id": "02b6561a55695d50",
+            "kid": "01169eab8c15ea6c69978861f87037108590469da72f603df14575e3790ceab49ad30a",
             "uid": "43cdd1599c31749df29c093d0ca50900",
             "username": "tsacha"
-        },
-        "service": {
-            "hostname": "s.tremoureux.fr",
-            "protocol": "https:"
-        },
-        "type": "web_service_binding",
-        "version": 1
-    },
-    "ctime": 1436157545,
-    "expire_in": 157680000,
-    "prev": "4d18032bda5d938a2a6fbdfd701ff06416570a500fba875bdd3f3e406aa5bf8c",
-    "seqno": 36,
-    "tag": "signature"
-}
-
-which yields the signature:
-
------BEGIN PGP MESSAGE-----
-Version: GnuPG v2
-
-owFtUm1QVFUY3t2Qr8GPUYeCMWa4kKRsy7l7v3fQsmBSiBljNMY+WO6599zlKuxu
-d+8ihJtCH6C5I2tigpEIxNAg6ZCQiKaBMokomxkzbNngFJRlo+WwDjpg95r96/w5
-c573eZ73PO85dfMfM0QbP5/qMcUdHt1tvHgDGjY2RvoqMegSKzBbJbYFPdwk2elA
-iluRnSpmwzgGSgJHsAwLJWClSQEnGJxmJJJBBM+QvIAo1ipCGjNjxS6PrtBsIO9B
-FtmlYdrBLosa+j/8LQ8LAAc4JDhOQ61IoKFIW3kJURwn4QTFAAm3UogkWBaxCDAC
-iyiGE1mJgwILKYkVKIZkRcBrdt5/+xCCKOKaXCBwhuREycoJgCNEIPAU4ADQiR6k
-OPlSpLFVDy8U85jPjGlYmSwgfQB6jkd1j0VVUKnLqyBvuUVSNLFbcakuwVWiFYtV
-1e2x6WK1wq2ztyJof+Rjh7JT1AapKcqQ4pFdTsyGa0xBlXVjnCRonGIokjJjqNwt
-K8gu6wyKoVmgLb0PKtPjiDgLCCsUeUrUXoG38rQERUlkAC5JgCZxWpuRlgxIkGcZ
-CooiIRGIBDTPU1AbD6Yne9PpwmwErd2Td+ihZIeTV71KBMJ8sTtNyyIMxmhD5DyT
-/hsMsTGL/vsidOvCB3kflHjDLYNPmkNpG3YeAf6K2z8MvFFXNeEXK/bxVwOm/msj
-Z99VS45hMcP5XUX9N/eCQ4nDY3t7Nu15tfWt+yebN//cHfrw3pH17c8E1o1t2LWm
-b9KfV3+cT4j45G6QOAWaDnR8FQ4QKcXYfbHj6Pie6OvB80MlQ+fwrq0XuxKz3262
-xCmHl1xiZuIVj/lUaN3t0/GmL17I+WtH3/nh3urLaZ8mXx/4JtMdXvW4u/LrIPTv
-A31RvvT88G854VmHktr/2Y/p3c1Vwfy12SPPZ9laV1qaVnQMJgw/AZ/1XS6YB1eM
-rJ5fP53YkbrEffxCrdSeffapJDX3uTtNK4szhbbeu0kTPa/sn06sYWv8c31eY6By
-1BGXs3xaaSgtOL09etto3suzMVOCa2NoqYPM/Kh68cC5BZ6YK0NnIlufttQtWjvI
-Bpx//35jOV0W89LUlZpOJiO2MC4+YuE1FUZ1vqd6l7bckt/5yagAUwju4JadOOiZ
-vbNtojBDmstuqcld8+vQvZlQVdK31Rc6G6fWt081Hdr1fpfhuxfbfkl+kFw7K/fm
-xv7ZPv795OuX5spP1mMDqVHBys3T5pTRhpnMj9MqMtrjesjqY5uoiGES7znaPW33
-BQq2J0ycwApTQrduZuVYiooWjP1xZnHt6qrmRq5t/9XG3Q3Sl/x49qRx8rVCc3rf
-qmDWPw==
-=HftB
+        },                                                                                                                                                                                                                                                   
+        "service": {                                                                                                                                                                                                                                         
+            "hostname": "s.tremoureux.fr",                                                                                                                                                                                                                   
+            "protocol": "https:"                                                                                                                                                                                                                             
+        },                                                                                                                                                                                                                                                   
+        "type": "web_service_binding",                                                                                                                                                                                                                       
+        "version": 1                                                                                                                                                                                                                                         
+    },                                                                                                                                                                                                                                                       
+    "ctime": 1475789121,                                                                                                                                                                                                                                     
+    "expire_in": 157680000,                                                                                                                                                                                                                                  
+    "prev": "42b0e286312faa7760acee2517b38c2a51c894d3518827d5ebec287f94603ef7",                                                                                                                                                                              
+    "seqno": 54,                                                                                                                                                                                                                                             
+    "tag": "signature"                                                                                                                                                                                                                                       
+}                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                             
+which yields the signature:                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                             
+-----BEGIN PGP MESSAGE-----                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                             
+owGtUj1oFEEY3fMPPAnYGOyEaT2OmdmdnZlNLQi2YlAkx/x8eze5ZHezu3deCFeK                                                                                                                                                                                             
+YpVSFGyCRSoLGxVB7DQ2WoiVpRwKVoKd4EyMla3TDPN9773vvY/ZXToedZfPfWlG                                                                                                                                                                                             
+Z27yTufdVx2t/nx9aQfp0m6jbAeN4fCCDQtNOxg7izKECUklKC0MYaBSk0rJhUhJ                                                                                                                                                                                             
+LjiOOcGCSZyk0ipO8xTHNicJ4wxiLrHxtEQqG2OFeih3xRDqqnZF62VzbmOdxCYH                                                                                                                                                                                             
+kxsvyhjRHFOMqU5ZShRjvmYZ9sRR2QSGN6dVA31X+pp/DP7Y+xf/n31PDuW8VWsJ                                                                                                                                                                                             
+k9LEhCfS5lQaLGOLjWJY4jB30kBdqE3w6LZRZqTQvId8beoMhLWGHEf9pt/WsFlO                                                                                                                                                                                             
+apjM+nntyVVdtqUpN3xz1LZVkwVyu10F9C3QgyOdgXaF9Yv0jCnUjSsLlBGPNK0L                                                                                                                                                                                             
+wiThjAtJKOkhmFWuhoELCMZTgf0Jc2Aa4lCNgd4QaUxorhTnKVYGgDLCdSwMVYwY                                                                                                                                                                                             
+IRMbMyIE5ZaBBkMFz2XilwU5RyHaVlGijCXeqBqGVG5YqNaHQvPu3bUT0XI3OnXy                                                                                                                                                                                             
+WPhiUff02b//7vF69Ov8wdaz1b1vzt1+Pr567eKP/fU7L14+WTzcu5Lde/V2dr0T                                                                                                                                                                                             
+fXp08Hkh3zy4/7TzPvq4mH/4fuFyRQWqt9b2dzsrS78B
+=9nV+
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -70,3 +59,4 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/tsacha
 
 ==================================================================
+
