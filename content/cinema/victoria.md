@@ -45,4 +45,4 @@ J’en suis ressorti plutôt marqué et totalement convaincu par
 l’alchimie qui a eu un très bon effet sur moi.
 
 
-{% vimeo 127295922 %}
+{{< vimeo 127295922 >}}

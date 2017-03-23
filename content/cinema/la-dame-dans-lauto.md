@@ -48,4 +48,4 @@ beaucoup de cohérence voire de qualité. Goûts et couleurs peut-être.
 Somme-toute je suis assez déçu et la beauté d'une rouquine ne m'aidera
 pas à faire pencher la balance dans l'autre sens…
 
-{% vimeo 134740227 %}
+{{< vimeo 134740227 >}}

@@ -38,4 +38,4 @@ Je conseille vivement !
 
 La traditionnelle bande-annonce :
 
-{% vimeo 75196510 %}
+{{< vimeo 75196510 >}}

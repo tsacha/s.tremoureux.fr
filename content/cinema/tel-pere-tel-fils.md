@@ -42,4 +42,4 @@ Surprenant !
 
 Extrait :
 
-{% vimeo 67059357 %}
+{{< vimeo 67059357 >}}

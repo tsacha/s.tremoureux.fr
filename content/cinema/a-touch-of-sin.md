@@ -46,4 +46,4 @@ Un film très curieux et intéressant.
 
 La bande-annonce :
 
-{% vimeo 67227210 %}
+{{< vimeo 67227210 >}}
