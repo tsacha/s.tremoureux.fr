@@ -1,20 +1,23 @@
 ---
 index:
   caption: Preikstolen, Norvège — CC BY 4.0 Sacha Trémoureux
-  captionlink: /images/bgs/index.jpg
-norvege:
-  name: Norvège 2012
-  caption: Preikstolen, Norvège — CC BY 4.0 Sacha Trémoureux
-  captionlink: /images/bgs/index.jpg
+  captionlink: /img/bgs/index.jpg
 about:
   name: À propos
   caption: Preikstolen, Norvège — CC BY 4.0 Sacha Trémoureux
-  captionlink: /images/bgs/index.jpg
-technologies:
-  name: Technologies
+  captionlink: /img/bgs/index.jpg
+archive-technologies:
+  hidden: true
+  name: Archive - Technologies
   caption: Year at a comet, © ESA/Rosetta/Navcam – CC BY-SA IGO 3.0
   captionlink: http://www.esa.int/spaceinimages/Images/2015/08/Year_at_a_comet_November_2014
-cinema:
-  name: Cinéma
+archive-cinema:
+  hidden: true
+  name: Archive - Cinéma
   caption: Oslo, 31. august, © Memento Films
   captionlink: http://distribution.memento-films.com/film/infos/45
+norvege:
+  hidden: true
+  name: Archive - Norvège 2012
+  caption: Preikstolen, Norvège — CC BY 4.0 Sacha Trémoureux
+  captionlink: /img/bgs/index.jpg
